@@ -15,13 +15,13 @@
 
     .navbar .navbar-light {
         /* border: 2px solid black; */
-        width: 80%;
+        width: 70%;
     }
 
 
     img#logo-baner {
         /* border: 2px solid brown; */
-        width: 80%;
+        width: 100%;
         margin-left: -2%;
        
         display: flex;
@@ -32,7 +32,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 40%;
-        margin-left: -1%;
+        margin-left: -3%;
       
     }
 
@@ -70,6 +70,7 @@
      
      
     /* SECTION --------------------------*/
+
     section {
         /* border: 2px solid pink; */
         width: 100%;
@@ -96,16 +97,16 @@
     }
 
     .menu_txt {
-        border: 2px solid mediumslateblue;
+        /* border: 2px solid mediumslateblue; */
         display: flex;
         flex-wrap: wrap;
         width: 90%;
-        height: 525px;
+        height: 45%;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .menu {
-        border: 2px solid rgb(13, 34, 97);
+        /* border: 2px solid rgb(13, 34, 97); */
         background-color: #E2DDDD;
         display: flex;
         flex-wrap: wrap;
@@ -126,6 +127,8 @@
         width: 100%;
         color: gray;
         margin-top: 15%;
+        padding-left: 6px;
+        padding-right: 6px;
     }
 
     .parrafo1 {
@@ -137,19 +140,19 @@
 
     .txt {
         background-color: #E2DDDD;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         width: 100%;
         border-bottom-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
     }
 
     .parrafo2 {
-        border: 2px solid mediumspringgreen;
+        /* border: 2px solid mediumspringgreen; */
         background-color: #F4E9E9;
         font-family: "Poppins";
         font-size: 15px;
@@ -158,6 +161,7 @@
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 15px;
+        margin-bottom: 25px;
         border-radius: 10px;
     }
 
@@ -175,6 +179,7 @@
         width: 90%;
         border-radius: 10px;
     }
+    
     .contenedor_taquiza_guisado_menu {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
@@ -201,7 +206,7 @@
         flex-wrap: wrap;
         width: 100%;
         margin-top: 20px;
-        margin-right: 0;
+        /* margin-right: 0; */
         justify-content: center;
         padding-bottom: 20px;
         border-right: none;
@@ -213,7 +218,7 @@
     #titulo_lista_tacos {
         list-style: none;
         font-size: 20px;
-        text-align: center;
+        /* text-align: center; */
         padding-bottom: 20px;
     }
 
@@ -224,7 +229,7 @@
         width: 100%;
         margin-top: 20px;
         justify-content: center;
-        border-right: 0;
+        border-right: none;
         border-bottom: 2px solid gray;
         padding-bottom: 25px;
     }
@@ -232,7 +237,7 @@
     #titulo_lista_guisados {
         list-style: none;
         font-size: 20px;
-        text-align: center;
+        /* text-align: center; */
         padding-bottom: 20px;
         /* padding-top: 15px; */
     }
@@ -242,9 +247,9 @@
         font-size: 16px;
     }
 
-    ul {
-        padding-left: 0;
-    }
+    /* ul {
+        padding-left: 10px;
+    } */
 
     /* h5 {
         font-family: "Poppins";
@@ -260,24 +265,72 @@
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        align-items: left;
-        margin-top: 20px;
         border-bottom: 2px solid gray;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
        
+    }
+
+    ul.dulce  {
+        /* border: 2px solid orangered; */
+        width: 63%;
+        padding: 5px;
     }
 
     #titulo_lista_dulces {
         font-size: 20px;
         list-style: none;
-        text-align: center;
+        /* text-align: center; */
         padding-bottom: 20px;
     }
 
 
-     /* --- --- CAROUSEL --- --- */
+    /* CONTENEDOR GALERIA *----------------------/
+
+    /* Carousel Glider */
+    .contenedor {
+        max-width: 1700px;
+        width: 86%;
+        margin: auto;
+        /* border: 2px solid red; */
+        /* background-color: rgb(51, 49, 49); */
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
+    }
+
+    
+    /* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+    .contenido-principal {
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .contenido-principal__imagen {
+        vertical-align: top;
+        margin-right: 20px;
+        width: 50%;
+        max-width: 550px;
+    }
+    .contenido-principal__contenedor {
+        width: 50%;
+    }
+    .contenido-principal__titulo {
+        font-weight: normal;
+        font-size: 28px;
+    }
+    .contenido-principal__resumen {
+        font-family: 'Open Sans', sans-serif;
+        line-height: 30px;
+        color: #CFCFCF;
+    }
+
+
+
+    /* --- --- CAROUSEL --- --- */
      .carousel__contenedor {
         position: relative;
+        /* border: 2px solid black; */
     }
     .carousel__anterior, .carousel__siguiente {
         position: absolute;
@@ -294,13 +347,13 @@
         opacity: 50%;
     }
     .carousel__anterior:hover, .carousel__siguiente:hover {
-        opacity: 100%;
+        opacity: 80%;
     }
     .carousel__anterior {
-        left: -70px;
+        left: -45px;
     }
     .carousel__siguiente {
-        right: -30px;
+        right: -5px;
     }
     .carousel__lista {
         overflow: hidden;
@@ -317,11 +370,114 @@
         border-radius: 0;
     }
     .carousel__indicadores .glider-dot:hover {
-        opacity: .5;
+        opacity: .9;
     }
     .carousel__indicadores .glider-dot.active {
         opacity: 1;
     }
+
+
+
+
+    
+    /* FORMULARIO ------------------------------------*/
+
+
+    .formulario {
+        /* border: 2px solid sandybrown; */
+        background-color: rgba(51, 49, 49, 0.377);
+        width: 90%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+    }
+    .info {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        /* font-family: "Poppins"; */
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+    }
+
+
+    form {
+        /* border: 2px solid yellow; */
+        width: 70%;
+        height: 350px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /* display: flex; */
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+
+    /* MAPA----------------------------- */
+    .mapa {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    iframe {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    /* REDES SOCIALES ------------------------ */
+
+    .redes_sociales {
+        /* border: 2px solid red; */
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width:90% ;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconos_social{
+        /* border: 2px solid pink; */
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        width: 100%;
+    }
+
+    h6 {
+       text-align: center;
+       
+    }
+
+
+    /* FLECHA –------------------ */
+
+    .div_flecha {
+        /* border: 2px solid olivedrab; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 40%;
+        font-size: 40px;
+       
+    }
+   
 
 
    
