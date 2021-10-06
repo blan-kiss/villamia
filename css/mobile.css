@@ -338,7 +338,7 @@
         width: 10px;
         height: 50px;
         /* border: 1px solid rebeccapurple; */
-        top: calc(50% - 35px);
+        top: calc(30% - 35px);
         cursor: pointer;
         line-height: 50px;
         text-align: center;
@@ -350,7 +350,7 @@
         opacity: 80%;
     }
     .carousel__anterior {
-        left: -45px;
+        left: -49px;
     }
     .carousel__siguiente {
         right: 19px;
@@ -377,7 +377,13 @@
         opacity: 1;
     }
 
-    
+    .fa-chevron-right:before{
+        font-size: 25px;
+    }
+    .fa-chevron-left:before{
+        font-size: 25px;
+        
+    }
 
 
 
