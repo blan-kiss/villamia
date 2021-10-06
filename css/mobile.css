@@ -289,7 +289,7 @@
     /* Carousel Glider */
     .contenedor {
         max-width: 1700px;
-        width: 86%;
+        width: 80%;
         margin: auto;
         /* border: 2px solid red; */
         /* background-color: rgb(51, 49, 49); */
@@ -335,16 +335,16 @@
     .carousel__anterior, .carousel__siguiente {
         position: absolute;
         display: block;
-        width: 30px;
+        width: 10px;
         height: 50px;
-        border: none;
+        /* border: 1px solid rebeccapurple; */
         top: calc(50% - 35px);
         cursor: pointer;
         line-height: 50px;
         text-align: center;
         background: none;
         color: rgba(46, 45, 45, 0.801);
-        opacity: 50%;
+        opacity: 100%;
     }
     .carousel__anterior:hover, .carousel__siguiente:hover {
         opacity: 80%;
@@ -353,7 +353,7 @@
         left: -45px;
     }
     .carousel__siguiente {
-        right: -5px;
+        right: 19px;
     }
     .carousel__lista {
         overflow: hidden;
@@ -368,6 +368,7 @@
         background: #fff;
         opacity: .2;
         border-radius: 0;
+        margin-top: 25px;
     }
     .carousel__indicadores .glider-dot:hover {
         opacity: .9;
@@ -375,6 +376,8 @@
     .carousel__indicadores .glider-dot.active {
         opacity: 1;
     }
+
+    
 
 
 
