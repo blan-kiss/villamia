@@ -289,7 +289,7 @@
     /* Carousel Glider */
     .contenedor {
         max-width: 1700px;
-        width: 80%;
+        width: 90%;
         margin: auto;
         /* border: 2px solid red; */
         /* background-color: rgb(51, 49, 49); */
@@ -301,11 +301,11 @@
     
     /* --- --- CONTENEDOR PRINCIPAL --- --- */
 
-    .contenido-principal {
+    /* .contenido-principal {
         margin-bottom: 50px;
         display: flex;
         align-items: center;
-    }
+    } */
     .contenido-principal__imagen {
         vertical-align: top;
         margin-right: 20px;
@@ -326,6 +326,17 @@
     }
 
 
+/* 
+    body {
+        padding: 40px 0;
+    }
+    .contenido-principal {
+        flex-direction: column;
+    }
+    .contenido-principal>* {
+        width: 100%;
+    } */
+
 
     /* --- --- CAROUSEL --- --- */
      .carousel__contenedor {
@@ -343,17 +354,18 @@
         line-height: 50px;
         text-align: center;
         background: none;
-        color: rgba(46, 45, 45, 0.801);
+        color: rgba(252, 250, 250, 0.801);
         opacity: 100%;
     }
     .carousel__anterior:hover, .carousel__siguiente:hover {
         opacity: 80%;
     }
     .carousel__anterior {
-        left: -49px;
+        left: -19px;
+        z-index: 1;
     }
     .carousel__siguiente {
-        right: 19px;
+        right: 42px;
     }
     .carousel__lista {
         overflow: hidden;
@@ -378,10 +390,10 @@
     }
 
     .fa-chevron-right:before{
-        font-size: 25px;
+        font-size: 20px;
     }
     .fa-chevron-left:before{
-        font-size: 25px;
+        font-size: 20px;
         
     }
 
