@@ -15,8 +15,8 @@ window.addEventListener('load', function(){
 			  breakpoint: 450,
 			  settings: {
 				// Set to `auto` and provide item width to adjust to viewport
-				slidesToShow: 'auto',
-				slidesToScroll: 'auto',
+				slidesToShow: '2',
+				slidesToScroll: '2',
 				draggable: true,
 				scrollLock: false
 			  }
