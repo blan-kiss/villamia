@@ -1,0 +1,780 @@
+/* For tablets: SURFACE DUO  ----------------------------------*/
+
+@media only screen and (min-width: 500px) {
+
+    .container-fluid {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90% !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar .navbar-light {
+        /* border: 2px solid black; */
+        width: 70%;
+    }
+
+
+    img#logo-baner {
+        /* border: 2px solid brown; */
+        width: 75%;
+        margin-left: -1%;
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        margin-left: -1%;
+      
+    }
+
+    #navbarNav {
+        /* border: 2px solid blue; */
+        margin-left: 0%;
+        /* margin-right: 50%; */
+        padding: 5px;
+        width: 100%;
+    }
+    
+    #navbarNav  li a {
+        /* border: 2px solid green; */
+        padding: 15px 9px;
+        font-family: "Poppins";
+        font-size: 16px;
+       
+    }
+
+
+
+    /* SECTION --------------------------*/
+
+    .banner {
+        /* border: 2px solid darkmagenta; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+    }
+
+    .menu_txt {
+        /* border: 2px solid mediumslateblue; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        height: 45%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        /* border: 2px solid rgb(13, 34, 97); */
+        background-color: #F4E9E9;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+       
+    }
+
+    .nombre_salon h2 {
+        /* border: 2px solid rosybrown; */
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 50px;
+        width: 100%;
+        color: gray;
+        margin-top: 15%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .parrafo1 {
+        font-size: 13px;
+        margin-top: 7% ;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .txt {
+        background-color: #E2DDDD;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .parrafo2 {
+        /* border: 2px solid mediumspringgreen; */
+        background-color: #F4E9E9;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        padding: 30px 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+    }
+
+/* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
+
+     #menu_menu {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+    }
+    
+    .contenedor_taquiza_guisado_menu {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        /* justify-content: center; */
+        align-items: flex-start
+    }
+
+    .titulo_menu {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 55px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .taquiza {
+        /* border: 2px solid skyblue; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+        /* margin-right: 0; */
+        justify-content: center;
+        padding-bottom: 20px;
+        border-right: none;
+        border-bottom: 2px solid gray;
+        /* padding-top: 10px; */
+        
+    }
+
+    #titulo_lista_tacos {
+        list-style: none;
+        font-size: 20px;
+        /* text-align: center; */
+        padding-bottom: 20px;
+    }
+
+    .guisados_menu {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+        border-right: none;
+        border-bottom: 2px solid gray;
+        padding-bottom: 25px;
+    }
+
+    #titulo_lista_guisados {
+        list-style: none;
+        font-size: 20px;
+        /* text-align: center; */
+        padding-bottom: 20px;
+        /* padding-top: 15px; */
+    }
+
+    li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+
+    /* MESA DULCES -----------------------*/
+
+    .dulce_menu {
+        /* border: 2px solid black; */
+        /* background-color: #e2b8b8; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        border-bottom: 2px solid gray;
+        padding-bottom: 25px;
+       
+    }
+
+    ul.dulce  {
+        /* border: 2px solid orangered; */
+        width: 53%;
+        padding: 5px;
+    }
+
+    #titulo_lista_dulces {
+        font-size: 20px;
+        list-style: none;
+        /* text-align: center; */
+        padding-bottom: 20px;
+        font-weight: 600;
+    }
+
+    /* CONTENEDOR GALERIA *----------------------/
+
+    /* Carousel Glider */
+    .contenedor {
+        max-width: 1700px;
+        width: 90%;
+        margin: auto;
+        /* border: 2px solid red; */
+        /* background-color: rgb(51, 49, 49); */
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
+    }
+
+    .carousel__anterior, .carousel__siguiente {
+       
+        user-select: none;
+        position: absolute;
+        outline: none;
+        background: none;
+        padding: 0;
+        z-index: 2;
+        font-size: 40px;
+        text-decoration: none;
+        left: -23px;
+        border: 0;
+        top: 25%;
+        cursor: pointer;
+        color: rgb(231, 226, 226);
+        opacity: 1;
+        line-height: 1;
+        transition: opacity .5s cubic-bezier(.17,.67,.83,.67),
+                    color .5s cubic-bezier(.17,.67,.83,.67);
+    }
+
+    .carousel__siguiente  {
+        right: 35px;
+        left: auto;
+    }
+
+    .glider-dot {
+        width: 10px;
+        height: 10px;
+        margin: 10px;
+    }
+
+    .glider-dots {
+        padding-top: 13px;
+    } 
+
+    .glider-slide img {
+        border-radius: 10px;
+        border: 4px solid #fff;
+    }
+
+
+    /* FORMULARIO ------------------------------------*/
+
+
+     .formulario {
+        /* border: 2px solid sandybrown; */
+        background-color: rgba(51, 49, 49, 0.377);
+        width: 95%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        font-weight: 300;
+    }
+    .info {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        /* font-family: "Poppins"; */
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+        text-align: center;
+    }
+
+
+    form {
+        /* border: 2px solid yellow; */
+        width: 70%;
+        height: 350px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /* display: flex; */
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #btn {
+        font-weight: 300;
+    }
+
+    /* MAPA----------------------------- */
+    .mapa {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    iframe {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h6 {
+        font-weight: 300;
+    }
+
+
+
+}
+
+
+
+/* IPADS -------------------------------------- */
+
+
+@media screen and (min-width: 766px) {
+
+    .container-fluid {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90% !important;
+       
+    }
+
+    img#logo-baner {
+        /* border: 2px solid brown; */
+        width: 85%;
+        margin-left: -1%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #navbarNav {
+        /* border: 2px solid blue; */
+        margin-left: 0%;
+        /* margin-right: 50%; */
+        padding: 5px;
+        width: 100%;
+    }
+
+    #navbarNav  li a {
+        /* border: 2px solid green; */
+        padding: 15px 9px;
+        font-family: "Poppins";
+        font-size: 20px;
+       
+    }
+
+    /* SECTION --------------------------*/
+
+    .nombre_salon h2 {
+        /* border: 2px solid rosybrown; */
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 65px;
+        width: 100%;
+        color: gray;
+        margin-top: 15%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .parrafo1 {
+        font-size: 20px;
+        margin-top: 7% ;
+        text-align: center;
+        font-weight: 300;
+        
+    }
+
+    .parrafo2 {
+        /* border: 2px solid mediumspringgreen; */
+        background-color: #F4E9E9;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 30px 30px;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        font-weight: 300;
+    }
+
+
+    /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
+
+   
+    .taquiza {
+        /* border: 2px solid skyblue; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        margin-top: 20px;
+        /* margin-right: 0; */
+        justify-content: center;
+        padding-bottom: 20px;
+        border-right: none;
+        border-bottom: 0;
+        /* padding-top: 10px; */
+        
+    }
+
+    #titulo_lista_tacos {
+        list-style: none;
+        font-size: 20px;
+        /* text-align: center; */
+        padding-bottom: 20px;
+    }
+
+    .guisados_menu {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        margin-top: 20px;
+        justify-content: center;
+        border-right: none;
+        border-bottom: 0;
+        /* padding-bottom: 25px; */
+    }
+
+    #titulo_lista_guisados {
+        list-style: none;
+        font-size: 20px;
+        /* text-align: center; */
+        padding-bottom: 20px;
+        /* padding-top: 15px; */
+    }
+
+    li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    /* MESA DULCES -----------------------*/
+
+    .dulce_menu {
+        /* border: 2px solid black; */
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        padding-bottom: 25px;
+        padding-top: 35px;
+        text-align: center;
+    }
+
+    ul.dulce  {
+        /* border: 2px solid orangered; */
+        width: 53%;
+        padding: 5px;
+        list-style: none;
+    }
+
+    #titulo_lista_dulces {
+        font-size: 20px;
+        list-style: none;
+        /* text-align: center; */
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+
+     /* FORMULARIO ------------------------------------*/
+
+    .info {
+        /* border: 2px solid greenyellow; */
+        font-weight: 300;
+        font-size: 19px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    form {
+        /* border: 2px solid yellow; */
+       font-weight: 300;
+    }
+    
+    #btn {
+        font-weight: 300;
+    } 
+
+    /* REDES SOCIALES ------------------------------ */
+
+    h6 {
+        font-weight: 300;
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:1024px) {
+    .container-fluid {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90% !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+    }
+
+    img#logo-baner {
+        /* border: 2px solid brown; */
+        width: 95%;
+        margin-left: -1%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #navbarNav {
+        /* border: 2px solid blue; */
+        margin-left: 20%;
+        /* margin-right: 50%; */
+        padding: 5px;
+        width: 100%;
+    }
+
+    #navbarNav  li a {
+        /* border: 2px solid green; */
+        padding: 25px 29px;
+        font-family: "Poppins";
+        font-size: 20px;
+       
+    }
+
+     /* SECTION --------------------------*/
+
+     .nombre_salon h2 {
+        /* border: 2px solid rosybrown; */
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 69px;
+        width: 100%;
+        color: gray;
+        margin-top: 15%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .parrafo1 {
+        font-size: 22px;
+        margin-top: 5% ;
+        text-align: center;
+        font-weight: 300;
+        padding: 20px;
+        
+    }
+
+    .txt {
+        padding: 20px;
+    }
+
+    .parrafo2 {
+        /* border: 2px solid mediumspringgreen; */
+        background-color: #F4E9E9;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 35px 35px;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        font-weight: 300;
+    }
+
+    /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
+
+    h5 {
+
+        font-size: 25px;
+    }
+
+   
+    .taquiza {
+        /* border: 2px solid skyblue; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        margin-top: 20px;
+        /* margin-right: 0; */
+        justify-content: center;
+        padding-bottom: 20px;
+        border-right: none;
+        border-bottom: 0;
+        /* padding-top: 10px; */
+        
+    }
+
+    #titulo_lista_tacos {
+        list-style: none;
+        font-size: 20px;
+        /* text-align: center; */
+        padding-bottom: 20px;
+    }
+
+    .guisados_menu {
+        /* border: 2px solid greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        margin-top: 20px;
+        justify-content: center;
+        border-right: none;
+        border-bottom: 0;
+        /* padding-bottom: 25px; */
+    }
+
+    #titulo_lista_guisados {
+        list-style: none;
+        font-size: 20px;
+        /* text-align: center; */
+        padding-bottom: 20px;
+        /* padding-top: 15px; */
+    }
+
+    li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    /* MESA DULCES -----------------------*/
+
+    .dulce_menu {
+        /* border: 2px solid black; */
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        padding-bottom: 25px;
+        padding-top: 35px;
+        text-align: center;
+    }
+
+    ul.dulce  {
+        /* border: 2px solid orangered; */
+        width: 53%;
+        padding: 5px;
+        list-style: none;
+    }
+
+    #titulo_lista_dulces {
+        font-size: 22px;
+        list-style: none;
+        /* text-align: center; */
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+
+    /* CARRUSEL-------------------------------------- */
+
+    .glider-slide img {
+        
+        border: 3px solid #fff;
+    }
+
+    /* FORMULARIO ------------------------------------*/
+
+    .info {
+        /* border: 2px solid greenyellow; */
+        font-weight: 300;
+        font-size: 22px;
+        padding-top: 10px;
+    }
+
+
+
+    form {
+        /* border: 2px solid yellow; */
+       font-weight: 300;
+    }
+    
+    #btn {
+        font-weight: 300;
+    } 
+
+    /* REDES SOCIALES ------------------------------ */
+
+    h6 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .div_flecha {
+        font-size: 30px;
+    }
+
+
+}
+
+
+
+
+
+    

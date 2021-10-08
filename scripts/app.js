@@ -2,7 +2,7 @@ window.addEventListener('load', function(){
 	new Glider(document.querySelector('.carousel__lista'), {
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		draggable: true,
+		draggable: false,
 		scrollLock: false,
 		dots: '.carousel__indicadores',		
 		arrows: {
@@ -15,10 +15,10 @@ window.addEventListener('load', function(){
 			  breakpoint: 450,
 			  settings: {
 				// Set to `auto` and provide item width to adjust to viewport
-				slidesToShow: '2',
-				slidesToScroll: '2',
-				draggable: true,
-				scrollLock: false
+				slidesToShow: '1',
+				slidesToScroll: '1',
+				// draggable: true,
+				// scrollLock: false
 			  }
 			},{
 			  // screens greater than >= 1024px
@@ -26,8 +26,8 @@ window.addEventListener('load', function(){
 			  settings: {
 				slidesToShow: 3,
 				slidesToScroll: 3,
-				draggable: true,
-				scrollLock: false
+				// draggable: true,
+				// scrollLock: false
 			  }
 			}
 		]
