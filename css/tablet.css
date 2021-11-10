@@ -75,7 +75,7 @@
 
     .menu {
         /* border: 2px solid rgb(13, 34, 97); */
-        background-color: #F4E9E9;
+        background-color: #f3d5d5;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -178,7 +178,8 @@
         justify-content: center;
         padding-bottom: 20px;
         border-right: none;
-        border-bottom: 2px solid gray;
+        border-bottom: 4px solid gray;
+        border-bottom-style: double;
         /* padding-top: 10px; */
         
     }
@@ -198,7 +199,8 @@
         margin-top: 20px;
         justify-content: center;
         border-right: none;
-        border-bottom: 2px solid gray;
+        border-bottom: 4px solid gray;
+        border-bottom-style: double;
         padding-bottom: 25px;
     }
 
@@ -226,7 +228,8 @@
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        border-bottom: 2px solid gray;
+        border-bottom: 4px solid gray;
+        border-bottom-style: double;
         padding-bottom: 25px;
        
     }
@@ -507,8 +510,10 @@
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        border-bottom: 2px solid gray;
-        border-top: 2px solid gray;
+        border-bottom: 4px solid gray;
+        border-bottom-style: double;
+        border-top: 4px solid gray;
+        border-top-style: double;
         padding-bottom: 25px;
         padding-top: 35px;
         text-align: center;
@@ -710,8 +715,10 @@
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        border-bottom: 2px solid gray;
-        border-top: 2px solid gray;
+        border-bottom: 3px solid gray;
+        border-bottom-style: double;
+        border-top: 3px solid gray;
+        border-top-style: double;
         padding-bottom: 25px;
         padding-top: 35px;
         text-align: center;
