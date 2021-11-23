@@ -370,24 +370,27 @@
 
                 <div class="boxName">
                     <label id="label1" for="Name">Nombre</label>
-                    <input type="text" name="name" id="name" placeholder="" required>
+                    <input type="text" name="name" id="name" placeholder="Introduce tu nombre" required autocomplete="off" >
                 </div>
 
 
                 <div class="boxMail">
                     <label id="label2" for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="" required>
+                    <input type="email" name="email" id="email" placeholder="Introduce tu correo electronico de contacto" required autocomplete="off" >
                 </div>
 
                 <div class="boxMess">
                     <label id="label3" for="textarea">Mensaje</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="" required></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escribe tu pregunta o comentario" required autocomplete="off" ></textarea>
                 </div>
 
                 <div class="box-btn">
-                    <button id="btn">Enviar</button>
+                    <button id="btn" >Enviar</button>
                 </div>
+
+                
             </form>
+            <div class="info" id="messageResult"></div>
         </div>
 
 
@@ -473,7 +476,7 @@
         })
     </script>
 
-    
+    <script src="scripts/mail-app.js"></script>
 
 
 
