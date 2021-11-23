@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template html</title>
+</head>
+
+<body>
+
+    <style>
+        .container {
+            /* border: 2px solid blueviolet; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 50%;
+            background: #f3d5d5;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 80%;
+        }
+
+        .box_saludo {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            align-items: center;
+            margin: 0 auto;
+            width: 50%;
+
+
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+
+        }
+
+        .box_message {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            align-items: center;
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        .message {
+            font-size: 1rem;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            padding: 5px;
+        }
+
+
+        .box_contact {
+            /* border: 2px solid black; */
+            background-color: #e0e0e07c;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            /* align-items: center; */
+            margin: 0 auto;
+            width: 50%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 25px
+        }
+
+
+
+        .contact {
+            /* border: 2px solid red; */
+            padding-left: 18px;
+            font-size: 1.2rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .redes {
+            display: inline-block;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        td img {
+            width: 5%;
+            padding-right: 70px;
+
+        }
+
+
+
+        #face {
+            width: 3%;
+        }
+
+
+
+        .web {
+
+            font-size: 1.2rem;
+            padding-left: 18px;
+            text-align: start;
+            padding-top: 20px;
+
+        }
+
+        /* .celda_pagina {
+            text-align: center;
+        } */
+
+        a .celda_pagina {
+            font-size: 1.2rem;
+            font-style: none;
+
+        }
+
+
+
+        th {
+            /* border: 2px solid blue; */
+        }
+
+        td {
+            /* border: 2px solid palevioletred; */
+
+            padding: 15px;
+            padding-left: 20px;
+            align-items: center;
+
+        }
+
+
+        /* RESPONSIVE --------------------------------------------- */
+
+
+        @media only screen and (max-width: 596px) {
+
+            .container {
+                /* border: 2px solid blueviolet; */
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 80%;
+                background: #f3d5d5;
+                border-radius: 5px;
+                margin-top: 20px
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .box_saludo {
+                width: 80%;
+            }
+
+            h2 {
+                font-size: 1rem;
+                /* font-family: Arial, Helvetica, sans-serif; */
+                /* padding: 5px; */
+
+            }
+
+            .box_message {
+                /* border: 2px solid black; */
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 80%;
+            }
+
+            .message {
+                font-size: 0.8rem;
+                padding: 5px;
+                text-align: justify;
+            }
+
+
+            .box_contact {
+                /* border: 2px solid black; */
+                background-color: #e0e0e07c;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: left;
+                margin: 0 auto;
+                width: 80%;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                padding-bottom: 25px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 25px;
+
+            }
+
+            .contact {
+                /* border: 2px solid red; */
+                padding-left: 18px;
+                padding-top: 10px;
+
+                font-size: 0.8rem;
+                font-weight: normal;
+
+            }
+
+
+            .web {
+
+                font-size: 1rem;
+                padding-left: 18px;
+                font-weight: normal;
+                padding-top: 20px;
+
+
+            }
+
+
+            .redes {
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                font-size: 10px;
+            }
+
+            td img {
+                width: 9%;
+                padding-right: 28px;
+            }
+
+            #face {
+                width: 5%;
+            }
+
+
+            td {
+                /* border: 2px solid palevioletred; */
+
+                padding: 5px;
+                padding-left: 15px;
+                text-align: center;
+                font-size: 12px;
+
+            }
+
+        }
+
+
+
+        @media only screen and (max-width: 850px) {
+            .container {
+                /* border: 2px solid blueviolet; */
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 80%;
+                background: #f3d5d5;
+                border-radius: 5px;
+                margin-top: 60px
+            }
+
+            .box_saludo {
+                width: 80%;
+            }
+
+            .box_message {
+                /* border: 2px solid black; */
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: start;
+                align-items: center;
+                margin: 0 auto;
+                width: 80%;
+            }
+
+            .box_contact {
+                /* border: 2px solid black; */
+                background-color: #e0e0e07c;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: left;
+                margin: 0 auto;
+                width: 80%;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                padding-bottom: 25px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 25px;
+
+            }
+
+            .contact {
+                /* border: 2px solid red; */
+                padding-left: 18px;
+                padding-top: 10px;
+
+                font-size: 1rem;
+                font-weight: normal;
+
+            }
+
+            .web {
+
+                font-size: 1rem;
+                padding-left: 18px;
+                font-weight: normal;
+                padding-top: 20px;
+
+
+            }
+
+            td {
+                font-size: 18px;
+            }
+
+
+        }
+
+
+
+
+
+
+
+        
+    </style>
+
+
+
+
+
+
+
+
+
+    <table class="container">
+        <tr>
+            <th class="animation"><img src="img/animacion_villaMia.gif" alt="animation"></th>
+
+        </tr>
+
+
+        <table class="box_saludo">
+            <tr>
+                <th class="saludo">
+                    <h2>Hi, Julia</h2>
+                </th>
+            </tr>
+        </table>
+
+
+
+        <table class="box_message">
+            <tr>
+                <th class="message">
+                    <p>Gracias por ponerte en contacto con nostros, sera un placer atenderte.</p>
+                </th>
+            </tr>
+        </table>
+
+
+
+
+
+        <table class="box_contact">
+
+            <tr>
+                <th class="contact"> Contactanos:</th>
+            </tr>
+
+
+
+            <tr class="redes">
+                <td>
+                    <a href="https://www.twitter.com"><img src="img/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.facebook.com"><img id="face" src="img/facebook.svg" alt="facebook"></a>
+                    <a href="https://www.instagram.com"><img src="img/instagram.svg" alt="instagram"></a>
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+                <th class="web">Website:</th>
+            </tr>
+
+            <tr>
+                <td class="celda_pagina">
+                    <a href="https://villamia.herokuapp.com/home.html#logo-baner"> www.villamiasalon.com</a>
+                </td>
+            </tr>
+
+
+
+
+
+
+
+
+        </table>
+
+
+    </table>
+
+
+
+
+</body>
+
+</html>
