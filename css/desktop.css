@@ -14,10 +14,11 @@
     }
     img#logo-baner {
         /* border: 2px solid brown; */
-        width: 80%;
+        width: 70%;
         margin-left: 10%;
         display: flex;
         flex-wrap: wrap;
+        
     }
     .container {
         /* border: 2px solid greenyellow; */

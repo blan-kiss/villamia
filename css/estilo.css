@@ -85,12 +85,14 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         width: 90%;
+       
     }
     .banner #img-banner {
         width: 100%;
         background: cover;
         object-fit: cover;
         border-radius: 10px;
+        /* height:90% ; */
     }
     .menu_txt {
         /* border: 2px solid mediumslateblue; */
