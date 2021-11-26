@@ -21,11 +21,16 @@
 
     img#logo-baner {
         /* border: 2px solid brown; */
-        width: 100%;
+        width: 90%;
         margin-left: -2%;
        
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .banner #img-banner {
+        min-height: 200px;
+        margin-top: -10px;
     }
     .container {
         /* border: 2px solid greenyellow; */

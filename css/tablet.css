@@ -20,12 +20,19 @@
 
     img#logo-baner {
         /* border: 2px solid brown; */
-        width: 75%;
+        width: 60%;
         margin-left: -1%;
        
         display: flex;
         flex-wrap: wrap;
     }
+
+    .banner #img-banner {
+        min-height: 200px;
+        margin-top: -20px;
+    }
+
+
     .container {
         /* border: 2px solid greenyellow; */
         display: flex;
@@ -91,7 +98,7 @@
         text-align: center;
         font-family: "Poppins";
         font-weight: bold;
-        font-size: 50px;
+        font-size: 40px;
         width: 100%;
         color: gray;
         margin-top: 15%;
@@ -389,10 +396,15 @@
 
     img#logo-baner {
         /* border: 2px solid brown; */
-        width: 85%;
+        width: 70%;
         margin-left: -1%;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .banner #img-banner {
+        min-height: 300px;
+        margin-top: -10px;
     }
 
     #navbarNav {
@@ -418,7 +430,7 @@
         text-align: center;
         font-family: "Poppins";
         font-weight: bold;
-        font-size: 65px;
+        font-size: 55px;
         width: 100%;
         color: gray;
         margin-top: 15%;
@@ -591,6 +603,8 @@
         flex-wrap: wrap;
     }
 
+   
+
     #navbarNav {
         /* border: 2px solid blue; */
         margin-left: 20%;
@@ -614,7 +628,7 @@
         text-align: center;
         font-family: "Poppins";
         font-weight: bold;
-        font-size: 69px;
+        font-size: 65px;
         width: 100%;
         color: gray;
         margin-top: 15%;
