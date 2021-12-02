@@ -7,7 +7,7 @@ const sendEmail = async (emailData) => {
         },
         body: JSON.stringify(emailData)
     }
-    const response = await fetch('http://localhost:8080/mail/sendfromclient', payload)
+    const response = await fetch('https://web-hope-vgdz.herokuapp.com/mail/send', payload)
     return response.json()
 }
 
