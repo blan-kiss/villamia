@@ -12,6 +12,7 @@ const sendEmail = async (emailData) => {
 }
 
 const validateEmailData = (emailData) => {
+  let regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
   if(emailData) {
     if(emailData.toEmail.length === 0) {
       document.querySelector("#email").placeholder = 'Por favor introduce un correo electronico'
@@ -21,9 +22,13 @@ const validateEmailData = (emailData) => {
       document.querySelector("#message").placeholder = 'Por favor introduce un comentario'
       document.querySelector("#message").focus()
       return false
-    } else if(emailData.message.length === 0) {
+    } else if(emailData.subject.length === 0) {
       document.querySelector("#name").placeholder = 'Por favor introduce un nombre'
       document.querySelector("#name").focus()
+      return false
+    } else if(!emailData.toEmail.match(regex)) {
+      document.querySelector("#email").placeholder = 'Por favor introduce una direccion de correo electronico valida'
+      document.querySelector("#email").focus()
       return false
     }
   }
@@ -53,7 +58,7 @@ document.querySelector("#btn").addEventListener("click", () => {
     const myPromise = sendEmail(emailData);
 
     myPromise.then((data) => {
-      if(data === undefined || data.status === 200) {
+      if(data === undefined || data.status !== 200) {
         throw new Error(data)
       }
       document.querySelector("#messageResult").innerHTML =
@@ -68,7 +73,6 @@ document.querySelector("#btn").addEventListener("click", () => {
     }).catch((error) => {
       document.querySelector("#messageResult").innerHTML =
           "Lo sentimos, su mensaje no pudo ser enviado, por favor intente mas tarde.";
-      console.log("Error detail: " + error);
       document.querySelector("#btn").disabled = false
       document.querySelector("#btn").innerHTML = 'Enviar'
     });
