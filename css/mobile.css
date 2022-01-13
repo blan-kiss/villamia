@@ -174,60 +174,88 @@
 
 
 
+
+
+
+
+
+
     /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
 
-    #menu_menu {
+    #menu_menu  {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
-       
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
         border-radius: 10px;
     }
-    
-    .contenedor_taquiza_guisado_menu {
+
+    #galeria1  {
+        margin-bottom: 10px;
+        background-color: #E2DDDD;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+        border: 3px solid #EAC9C9;
+    }
+
+    #galeria_taquiza {
+        margin-bottom: 10px;
         background-color: #EAC9C9;
-        /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        /* justify-content: center; */
-        align-items: flex-start
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+       
+    }
+    
+    .contenedor_taquiza {
+        background-color: #EAC9C9;
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
     }
 
-    .titulo_menu {
-        /* border: 2px solid darkolivegreen; */
+    .galeria_taquiza {
+        border: 2px solid darkolivegreen;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        margin-top: 45px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
     }
 
-    .taquiza {
-        /* border: 2px solid skyblue; */
+    .taquiza_02 {
+        border: 2px solid skyblue;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-top: 20px;
-        /* margin-right: 0; */
         justify-content: center;
-        padding-bottom: 20px;
-        border-right: none;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        /* padding-top: 10px; */
+        padding-bottom: 10px;
+        font-family: 'Montserrat';
+        padding-top: 10px;
         
     }
 
-    #titulo_lista_tacos {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
+    .titulo_menu{
+        border: 2px solid skyblue;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        font-family: 'Montserrat';
+        
     }
 
     .guisados_menu {
@@ -313,11 +341,7 @@
     
     /* --- --- CONTENEDOR PRINCIPAL --- --- */
 
-    /* .contenido-principal {
-        margin-bottom: 50px;
-        display: flex;
-        align-items: center;
-    } */
+   
     .contenido-principal__imagen {
         vertical-align: top;
         margin-right: 20px;
@@ -345,24 +369,15 @@
     }
 
 
-/* 
-    body {
-        padding: 40px 0;
-    }
-    .contenido-principal {
-        flex-direction: column;
-    }
-    .contenido-principal>* {
-        width: 100%;
-    } */
-
 
     /* --- --- CAROUSEL --- --- */
-     .carousel__contenedor {
+
+    .carousel__contenedor {
         position: relative;
         /* border: 2px solid black; */
     }
-    .carousel__anterior, .carousel__siguiente {
+
+    .carousel__anterior, .carousel__siguiente, .carousel__siguiente_gal1, .carousel__anterior_gal1, .carousel__siguiente_taco, .carousel__anterior_taco {
         /* position: absolute;
         display: block;
         width: 30px;
@@ -395,7 +410,7 @@
                     color .5s cubic-bezier(.17,.67,.83,.67);
     }
 
-    .carousel__siguiente  {
+    .carousel__siguiente, .carousel__siguiente_gal1, .carousel__siguiente_taco{
         right: 35px;
         left: auto;
     }
@@ -403,6 +418,8 @@
     .carousel__anterior:hover, .carousel__siguiente:hover {
         opacity: 80%;
     }
+
+    
     /* .carousel__anterior {
         left: -19px;
         z-index: 1;
@@ -410,6 +427,8 @@
     /* .carousel__siguiente {
         right: 42px;
     } */
+
+
     .carousel__lista {
         overflow: hidden;
     }
@@ -449,6 +468,7 @@
         width: 9px;
         height: 9px;
         margin: 9px;
+        border-radius: 3px;
     }
 
     .glider-dots {
@@ -498,6 +518,22 @@
         flex-wrap: wrap;
         align-items: center;
         font-weight: 300;
+    }
+
+    #name, #email,  #message, #btn  {
+        padding: 8px;
+        font-size: 14px;  
+        background-color: rgb(253, 253, 253);
+    }
+
+    #btn {
+        color: rgb(253, 253, 253);
+        background-color: rgb(12, 91, 136);
+        font-size: 14px;
+    }
+
+    .box-bnt {
+        background-color: #EAC9C9;
     }
 
 
