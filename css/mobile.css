@@ -446,6 +446,9 @@
         
     }
 
+
+
+    
     /* .guisados_menu {
         border: 2px solid greenyellow;
         display: flex;
@@ -509,6 +512,9 @@
         text-align: center;
         padding-bottom: 20px;
     } */
+
+
+
 
 
     /* CONTENEDOR GALERIA *----------------------/
@@ -681,7 +687,7 @@
     } */
 
     .glider-dot.active {
-        background: rgba(56, 56, 56, 0.699) !important;
+        background: rgba(255, 255, 255, 0.699) !important;
     }
 
     .glider-dot {
@@ -689,6 +695,7 @@
         height: 9px;
         margin: 9px;
         border-radius: 3px;
+        background-color: rgba(145, 12, 85, 0.363);
     }
 
     .glider-dots {
