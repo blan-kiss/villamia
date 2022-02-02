@@ -357,87 +357,8 @@
     }
 
 
-
-
-
-    .taquiza_02 {
-        border: 2px solid skyblue;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        padding-bottom: 10px;
-        font-family: 'Montserrat';
-        padding-top: 10px;
-        
-    }
-
-    .guisados_02 {
-        border: 2px solid skyblue;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        padding-bottom: 10px;
-        font-family: 'Montserrat';
-        padding-top: 10px;
-        
-    }
-
-    .postres_02 {
-        border: 2px solid skyblue;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        padding-bottom: 10px;
-        font-family: 'Montserrat';
-        padding-top: 10px;
-        
-    }
-
-
-    .hamhot_02 {
-        border: 2px solid skyblue;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        padding-bottom: 10px;
-        font-family: 'Montserrat';
-        padding-top: 10px;
-        
-    }
-
-    .tamales_02 {
-        border: 2px solid skyblue;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        padding-bottom: 10px;
-        font-family: 'Montserrat';
-        padding-top: 10px;
-        
-    }
-
-    .inflable_02 {
-        border: 2px solid skyblue;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        padding-bottom: 10px;
-        font-family: 'Montserrat';
-        padding-top: 10px;
-        
-    }
-
-
-
-
     .titulo_menu{
-        border: 2px solid skyblue;
+        /* border: 2px solid skyblue; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;

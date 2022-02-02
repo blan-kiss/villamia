@@ -179,7 +179,7 @@
 
     .contenedor_taquiza {
         background-color: #EAC9C9;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
         width: 30%;
@@ -190,7 +190,7 @@
 
     .contenedor_guisados {
         background-color: #EAC9C9;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
         width: 30%;
@@ -202,7 +202,7 @@
 
     .contenedor_postres {
         background-color: #EAC9C9;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
         width: 30%;
@@ -213,7 +213,7 @@
 
     .contenedor_hamhot {
         background-color: #EAC9C9;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
         width: 30%;
@@ -225,7 +225,7 @@
 
     .contenedor_tamales {
         background-color: #EAC9C9;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
         width: 30%;
@@ -236,7 +236,7 @@
 
     .contenedor_inflable {
         background-color: #EAC9C9;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
         width: 30%;
@@ -402,8 +402,10 @@
 
     /* MESA CARRUSEL DULCES --------------------*/
 
-    .dulce_menu {
-        /* border: 2px solid black; */
+
+
+    /* .dulce_menu {
+        border: 2px solid black;
         display: flex;
         flex-wrap: wrap;
         width: 33%;
@@ -415,15 +417,17 @@
         padding: 12px;
         text-align: start;
         list-style:circle;
-    }
-    #titulo_lista_dulces {
+    } */
+
+
+    /* #titulo_lista_dulces {
         font-size: 22px;
         
         align-items: center;
         font-weight: 600;
         
     }
-  
+   */
 
 
     /* MAPA----------------------------- */
@@ -436,9 +440,10 @@
         margin-top: 20px;
     }
     iframe {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
+        border-radius: 10px;
     }
 
 
@@ -447,7 +452,7 @@
         /* border: 2px solid sandybrown; */
         background-color: rgba(51, 49, 49, 0.377);
         width: 90%;
-        margin-top: 10px;
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -576,10 +581,10 @@
         width: 100%;
     }
 
-    i   {
+    /* i   {
         padding: 70px 30px;
        
-    }
+    } */
 
     #face{
         color:rgb(97, 94, 95);
