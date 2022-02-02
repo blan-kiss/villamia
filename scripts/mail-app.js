@@ -54,7 +54,8 @@ document.querySelector("#btn").addEventListener("click", () => {
 
   if(validateEmailData(emailData)){
     document.querySelector("#btn").disabled = true
-    document.querySelector("#btn").innerHTML = '...'
+    document.querySelector("#btn").innerHTML = 'Enviando...'
+    document.querySelector("#messageResult").innerHTML = "Su mensaje esta siendo enviado, espere un momento por favor";
     const myPromise = sendEmail(emailData);
 
     myPromise.then((data) => {
