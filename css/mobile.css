@@ -184,7 +184,7 @@
 
     #menu_menu  {
         background-color: #EAC9C9;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
