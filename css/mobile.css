@@ -375,11 +375,11 @@
         font-size: 15px;
         padding: 25px;
         text-align: center;
-        /* background: #cb9b9b; */
         color: #fff;
-        /* font-weight: bolder; */
+        border-top: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
         border-radius: 25px;
-        margin: 25px;
+        margin: 31px;
     }
 
 
