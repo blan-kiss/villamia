@@ -327,15 +327,14 @@
 
     .manteleria {
         font-family: 'Montserrat';
-        font-size: 17px;
-        padding: 15px;
+        font-size: 19px;
+        padding: 25px;
         text-align: center;
-        background: #cb9b9b;
         color: #fff;
-        font-weight: bolder;
+        border-top: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
         border-radius: 25px;
-        width: 80%;
-        margin-bottom: 40px;
+        margin: 40px;
         
     }
    

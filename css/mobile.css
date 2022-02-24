@@ -203,17 +203,7 @@
         border: 3px solid #EAC9C9;
     }
 
-    /* #galeria_taquiza {
-        margin-bottom: 10px;
-        background-color: #EAC9C9;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 95%;
-        border-radius: 10px;
-       
-    }
-    */
+   
 
     .contenedor_taquiza {
         background-color: #EAC9C9;
@@ -436,24 +426,13 @@
 
     .carousel__contenedor {
         position: relative;
-        /* border: 2px solid black; */
+       
     }
 
     .carousel__anterior, .carousel__siguiente, .carousel__siguiente_gal1, .carousel__anterior_gal1, .carousel__siguiente_taco, .carousel__anterior_taco,
     .carousel__siguiente_guisados, .carousel__anterior_guisados, .carousel__siguiente_postres, .carousel__anterior_postres, .carousel__siguiente_hamhot, .carousel__anterior_hamhot,
     .carousel__siguiente_tamales, .carousel__anterior_tamales, .carousel__siguiente_inflable, .carousel__anterior_inflable {
-        /* position: absolute;
-        display: block;
-        width: 30px;
-        height: 30px; */
-        /* border: 1px solid rebeccapurple; */
-        /* top: calc(30% - 35px);
-        cursor: pointer;
-        line-height: 30px;
-        text-align: center;
-        background: none;
-        color: rgba(252, 250, 250, 0.801);
-        opacity: 100%; */
+       
 
         user-select: none;
         position: absolute;
@@ -514,13 +493,7 @@
     }
 
     
-    /* .carousel__anterior {
-        left: -19px;
-        z-index: 1;
-    } */
-    /* .carousel__siguiente {
-        right: 42px;
-    } */
+   
 
 
     .carousel__lista {
@@ -530,14 +503,10 @@
         text-align: center;
     }
     .carousel__indicadores .glider-dot {
-        /* display: block;
-        width: 30px;
-        height: 4px; */
+       
         background: #fff;
         font-size: 16px;
-        /* opacity: .2;
-        border-radius: 0;
-        margin-top: 25px; */
+       
     }
     .carousel__indicadores .glider-dot:hover {
         opacity: .9;
@@ -546,13 +515,7 @@
         opacity: 1;
     }
 
-    /* .fa-chevron-right:before{
-        font-size: 20px;
-    }
-    .fa-chevron-left:before{
-        font-size: 20px;
-        
-    } */
+   
 
     .glider-dot.active {
         background: rgba(255, 255, 255, 0.699) !important;
@@ -616,7 +579,8 @@
     }
 
     #name, #email,  #message, #btn  {
-        padding: 8px;
+        padding: 10px;
+        font-family: 'Poppins';
         font-size: 14px;  
         background-color: rgb(253, 253, 253);
     }
