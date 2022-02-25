@@ -125,22 +125,29 @@
 
 
 
+
     /* --- --- CAROUSEL --- --- */
 
    
-    .carousel__anterior, .carousel__siguiente {
+    .carousel__anterior, .carousel__siguiente, .carousel__anterior_gal1, .carousel__siguiente_gal1 {
        
         color: rgba(0, 0, 0, 0.801);
         opacity: 50%;
     }
-    .carousel__anterior:hover, .carousel__siguiente:hover {
+    .carousel__anterior:hover, .carousel__siguiente:hover,  .carousel__anterior_gal1:hover, .carousel__siguiente_gal1:hover {
         opacity: 100%;
     }
-    .carousel__anterior {
+    .carousel__anterior, .carousel__anterior_gal1  {
         left: -70px;
     }
-    .carousel__siguiente {
+    .carousel__siguiente, .carousel__siguiente_gal1 {
         right: -10px;
+    }
+
+    .glider-slide img {
+        
+        border: 3px solid #fff;
+        width: 95%;
     }
    
 
@@ -150,7 +157,7 @@
     #menu_menu {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
-        /* background-image: url(../img/taco.png); */
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -158,101 +165,179 @@
         border-radius: 10px;
     }
 
-    .contenedor_taquiza_guisado_menu {
+    #galeria1 {
+        margin-bottom: 10px;
+        background-color: #F4E9E9;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        border-radius: 10px;
+        border: 3px solid #EAC9C9;
+    }
+
+
+    .contenedor_taquiza {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        /* justify-content: center; */
-        align-items: flex-start
+        width: 30%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
     }
 
-    .titulo_menu {
+    .contenedor_guisados {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_postres {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_hamhot {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_tamales {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_inflable {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .galeria_taquiza {
         /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_guisados {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_postres {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_hamhot {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_tamales {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_inflable {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .titulo_menu{
+        /* border: 2px solid skyblue; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        margin-top: 75px;
-        margin-bottom: 45px;
-        
+        font-family: 'Montserrat';
+        font-size: 20px;
     }
 
-    
-    .taquiza {
-        /* border: 2px solid skyblue; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 33%;
-        height: 75%;
-        margin-top: 20px;
-        margin-right: 10px;
-        justify-content: center;
-        padding-bottom: 20px;
-        /* padding-top: 10px; */
-        border-right: 3px solid gray;
-        border-right-style: double;
-    }
-
-    
-    #titulo_lista_tacos {
-        list-style: none;
-        font-size: 22px;
-        font-weight: 600;
-    }
-
-    .guisados_menu {
-        /* border: 2px solid greenyellow; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 33%;
-        margin-top: 20px;
-        justify-content: center;
-        border-right: 3px solid gray;
-        border-right-style: double;
-    }
-    #titulo_lista_guisados {
-        list-style: none;
-        font-size: 22px;
-        font-weight: 600;
-        /* padding-top: 15px; */
-    }
-    li {
-        font-family: 'Montserrat', sans-serif;
-    }
-    h5 {
-        font-family: 'Montserrat', sans-serif;
+    .manteleria {
+        font-family: 'Montserrat';
+        font-size: 19px;
+        padding: 25px;
         text-align: center;
-        font-size: 22px;
-       
-    }
-
-
-    /* MESA CARRUSEL DULCES --------------------*/
-
-    .dulce_menu {
-        /* border: 2px solid black; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 33%;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0;
-        border-top: 0;
-        border-bottom: 0;
-        padding: 12px;
-        text-align: start;
-        list-style:circle;
-    }
-    #titulo_lista_dulces {
-        font-size: 22px;
-        
-        align-items: center;
-        font-weight: 600;
+        color: #fff;
+        border-top: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        margin: 40px;
         
     }
-  
+   
 
 
     /* MAPA----------------------------- */
@@ -265,9 +350,10 @@
         margin-top: 20px;
     }
     iframe {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
+        border-radius: 10px;
     }
 
 
@@ -276,7 +362,7 @@
         /* border: 2px solid sandybrown; */
         background-color: rgba(51, 49, 49, 0.377);
         width: 90%;
-        margin-top: 10px;
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -405,10 +491,10 @@
         width: 100%;
     }
 
-    i  {
-        padding: 30px;
+    /* i   {
+        padding: 70px 30px;
        
-    }
+    } */
 
     #face{
         color:rgb(97, 94, 95);

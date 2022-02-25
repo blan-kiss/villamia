@@ -174,125 +174,205 @@
 
 
 
+
+
+
+
+
+
     /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
 
-    #menu_menu {
+    #menu_menu  {
         background-color: #EAC9C9;
-        /* border: 2px solid black; */
-       
+        /* border: 2px solid red; */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
         border-radius: 10px;
     }
-    
-    .contenedor_taquiza_guisado_menu {
+
+    #galeria1  {
+        margin-bottom: 10px;
+        background-color: #E2DDDD;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+        border: 3px solid #EAC9C9;
+    }
+
+   
+
+    .contenedor_taquiza {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        /* justify-content: center; */
-        align-items: flex-start
+        width: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
     }
 
-    .titulo_menu {
+    .contenedor_guisados {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_postres {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_hamhot {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_tamales {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_inflable {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+
+
+
+    .galeria_taquiza {
         /* border: 2px solid darkolivegreen; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        margin-top: 45px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
     }
 
-    .taquiza {
+    .galeria_guisados {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_postres {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_hamhot {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_tamales {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_inflable {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .titulo_menu{
         /* border: 2px solid skyblue; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-top: 20px;
-        /* margin-right: 0; */
         justify-content: center;
-        padding-bottom: 20px;
-        border-right: none;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        /* padding-top: 10px; */
+        font-family: 'Montserrat';
+        color: #5e5d5d;
         
     }
 
-    #titulo_lista_tacos {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
+
+
+    .manteleria {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        padding: 25px;
+        text-align: center;
+        color: #fff;
+        border-top: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        margin: 31px;
     }
 
-    .guisados_menu {
-        /* border: 2px solid greenyellow; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 20px;
-        justify-content: center;
-        border-right: none;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        padding-bottom: 25px;
-    }
 
-    #titulo_lista_guisados {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
-        /* padding-top: 15px; */
-    }
-
-    li {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-    }
-
-    /* ul {
-        padding-left: 10px;
-    } */
-
-    /* h5 {
-        font-family: "Poppins";
-    } */
-
-
-    /* MESA DULCES -----------------------*/
-
-     .dulce_menu {
-        /* border: 2px solid black; */
-        /* background-color: #e2b8b8; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        padding-bottom: 25px;
-       
-    }
-
-    ul.dulce  {
-        /* border: 2px solid orangered; */
-        width: 63%;
-        padding: 5px;
-    }
-
-    #titulo_lista_dulces {
-        font-size: 20px;
-        list-style: none;
-        /* text-align: center; */
-        padding-bottom: 20px;
-    }
 
 
     /* CONTENEDOR GALERIA *----------------------/
@@ -313,11 +393,7 @@
     
     /* --- --- CONTENEDOR PRINCIPAL --- --- */
 
-    /* .contenido-principal {
-        margin-bottom: 50px;
-        display: flex;
-        align-items: center;
-    } */
+   
     .contenido-principal__imagen {
         vertical-align: top;
         margin-right: 20px;
@@ -345,36 +421,18 @@
     }
 
 
-/* 
-    body {
-        padding: 40px 0;
-    }
-    .contenido-principal {
-        flex-direction: column;
-    }
-    .contenido-principal>* {
-        width: 100%;
-    } */
-
 
     /* --- --- CAROUSEL --- --- */
-     .carousel__contenedor {
+
+    .carousel__contenedor {
         position: relative;
-        /* border: 2px solid black; */
+       
     }
-    .carousel__anterior, .carousel__siguiente {
-        /* position: absolute;
-        display: block;
-        width: 30px;
-        height: 30px; */
-        /* border: 1px solid rebeccapurple; */
-        /* top: calc(30% - 35px);
-        cursor: pointer;
-        line-height: 30px;
-        text-align: center;
-        background: none;
-        color: rgba(252, 250, 250, 0.801);
-        opacity: 100%; */
+
+    .carousel__anterior, .carousel__siguiente, .carousel__siguiente_gal1, .carousel__anterior_gal1, .carousel__siguiente_taco, .carousel__anterior_taco,
+    .carousel__siguiente_guisados, .carousel__anterior_guisados, .carousel__siguiente_postres, .carousel__anterior_postres, .carousel__siguiente_hamhot, .carousel__anterior_hamhot,
+    .carousel__siguiente_tamales, .carousel__anterior_tamales, .carousel__siguiente_inflable, .carousel__anterior_inflable {
+       
 
         user-select: none;
         position: absolute;
@@ -394,22 +452,50 @@
         transition: opacity .5s cubic-bezier(.17,.67,.83,.67),
                     color .5s cubic-bezier(.17,.67,.83,.67);
     }
+    
 
-    .carousel__siguiente  {
+    .carousel__siguiente, .carousel__siguiente_gal1, .carousel__siguiente_taco, .carousel__siguiente_guisados, .carousel__siguiente_postres, .carousel__siguiente_hamhot,
+    .carousel__siguiente_tamales, .carousel__siguiente_inflable {
         right: 35px;
+        left: auto;
+    }
+
+    .carousel__siguiente_taco, .carousel__anterior_taco,
+    .carousel__siguiente_guisados, .carousel__anterior_guisados, .carousel__siguiente_postres, .carousel__anterior_postres, .carousel__siguiente_hamhot, .carousel__anterior_hamhot,
+    .carousel__siguiente_tamales, .carousel__anterior_tamales, .carousel__siguiente_inflable, .carousel__anterior_inflable {
+        user-select: none;
+        position: absolute;
+        outline: none;
+        background: none;
+        padding: 0;
+        z-index: 2;
+        font-size: 40px;
+        text-decoration: none;
+        left: -55px;
+        border: 0;
+        top: 25%;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        opacity: 1;
+        line-height: 1;
+        transition: opacity .5s cubic-bezier(.17,.67,.83,.67),
+                    color .5s cubic-bezier(.17,.67,.83,.67);
+    }
+
+    .carousel__siguiente_taco, .carousel__siguiente_guisados, .carousel__siguiente_postres, .carousel__siguiente_hamhot,
+    .carousel__siguiente_tamales, .carousel__siguiente_inflable {
+        right: -55px;
         left: auto;
     }
 
     .carousel__anterior:hover, .carousel__siguiente:hover {
         opacity: 80%;
     }
-    /* .carousel__anterior {
-        left: -19px;
-        z-index: 1;
-    } */
-    /* .carousel__siguiente {
-        right: 42px;
-    } */
+
+    
+   
+
+
     .carousel__lista {
         overflow: hidden;
     }
@@ -417,14 +503,10 @@
         text-align: center;
     }
     .carousel__indicadores .glider-dot {
-        /* display: block;
-        width: 30px;
-        height: 4px; */
+       
         background: #fff;
         font-size: 16px;
-        /* opacity: .2;
-        border-radius: 0;
-        margin-top: 25px; */
+       
     }
     .carousel__indicadores .glider-dot:hover {
         opacity: .9;
@@ -433,22 +515,18 @@
         opacity: 1;
     }
 
-    /* .fa-chevron-right:before{
-        font-size: 20px;
-    }
-    .fa-chevron-left:before{
-        font-size: 20px;
-        
-    } */
+   
 
     .glider-dot.active {
-        background: rgba(56, 56, 56, 0.699) !important;
+        background: rgba(255, 255, 255, 0.699) !important;
     }
 
     .glider-dot {
         width: 9px;
         height: 9px;
         margin: 9px;
+        border-radius: 3px;
+        background-color: rgba(145, 12, 85, 0.363);
     }
 
     .glider-dots {
@@ -466,7 +544,7 @@
         /* border: 2px solid sandybrown; */
         background-color: rgba(51, 49, 49, 0.377);
         width: 95%;
-        margin-top: 10px;
+        margin-top: -75px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -498,6 +576,23 @@
         flex-wrap: wrap;
         align-items: center;
         font-weight: 300;
+    }
+
+    #name, #email,  #message, #btn  {
+        padding: 10px;
+        font-family: 'Poppins';
+        font-size: 14px;  
+        background-color: rgb(253, 253, 253);
+    }
+
+    #btn {
+        color: rgb(253, 253, 253);
+        background-color: rgb(12, 91, 136);
+        font-size: 14px;
+    }
+
+    .box-bnt {
+        background-color: #EAC9C9;
     }
 
 

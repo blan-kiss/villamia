@@ -11,14 +11,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/normalize.css">
-   
+
 
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;900&display=swap" rel="stylesheet">
     <link href="https://fontawesome.com/v6.0/icons?d=gallery&p=1&q=menu&s=solid&c=coding&m=free">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
-    
+
 
     <!-- Glider JS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
@@ -32,20 +32,30 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    
-    
+
+
 
     <!-- Boostrap Menu_Nav -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
 
+
+
+    <!-- Carrusel- Materialize -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+
     <!-- RESPONSIVE -->
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/desktop.css">
-    
-    
+
+
+
+
+
+
 
 
 
@@ -80,7 +90,7 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#menu_menu">Servicio</a>
                         </li>
-                       
+
                         <li class="nav-item">
                             <a class="nav-link" href="#formu_info">Contacto</a>
                         </li>
@@ -93,7 +103,7 @@
 
     </header>
 
-    <!-- <div class="baner_section"></div> -->
+
 
 
     <section>
@@ -113,241 +123,665 @@
             </div>
 
             <div class="txt">
-                <p class="parrafo2">Nos encargamos de realizar desde una simple taquiza hasta platillos gourmet,
-                    dependiendo de lo que necesites o del evento. Damos una atención personalizada y siempre nos
-                    adecuamos a las necesidades de cada uno de nuestros clientes.
+                <p class="parrafo2">Nos encargamos de realizar desde una simple taquiza o guisado hasta platillos que se ajusten a tus necesidades.
+                     Damos una atención personalizada y siempre nos
+                    adecuamos a cada uno de nuestros clientes.
                 </p>
             </div>
         </div>
 
 
-        <div id="menu_menu">
-
-            <div class="contenedor_taquiza_guisado_menu">
-
-                <div class="titulo_menu">
-                    <h5>NUESTROS SERVICIOS:</h5>
-                </div>
-
-                <div class="taquiza">
-                    <ul>
-                        <li id="titulo_lista_tacos">Taquizas</li>
-                        <li>Pollo deshebrado con mole</li>
-                        <li>Chorizo con papas</li>
-                        <li>Papas con huevo</li>
-                        <li>Tinga de pollo</li>
-                        <li>Alambre de pierna con morr&oacute;n</li>
-                        <li>Duro en salsa roja o verde</li>
-                        <li>Carne de cerdo con mole</li>
-                        <li>Cerdo en pasilla</li>
-                        <li>Chicharr&oacute;n prensado</li>
-                        <li>Pastor con pi&ntilde;a</li>
-                        <li>Huevo en salsa roja o verde</li>
-                        <li>Pollo en grat&iacute;n</li>
-                        <li>Chorizo almendrado</li>
-                    </ul>
-                    
-                </div>
-                
-
-                <div class="guisados_menu">
-                    <ul>
-                        <li id="titulo_lista_guisados">Guisados</li>
-                        <li>Nopales guisados</li>
-                        <li>Bisteck a la mexicana</li>
-                        <li>Bisteck en salsa verde o roja</li>
-                        <li>Ensalada de nopales</li>
-                        <li>Rajas con crema y elote</li>
-                        <li>Salchichas al chipotle</li>
-                        <li>Salchichas a la mexicana</li>
-                        <li>Picadilllo</li>
-                        <li>Papa leonesa al grat&iacute;n</li>
-                        <li>Espinacas guisadas</li>
-                        <li>Champi&ntilde;ones al ajillo</li>
-                        <li>Ensalada de lechuga y jam&oacute;n</li>
-                        <li>At&uacute;n a la mexicana</li>
-                        <li>Huevo con nopales</li>
-
-
-                    </ul>
-                </div>
-
-                <div class="dulce_menu">
-                    <ul class="dulce">
-                        <li id="titulo_lista_dulces">Mesa de Dulces</li>
-                        <li>Salada y dulce</li>
-                        <li>Inflable</li>
-                        
-                    </ul>
-                       
-
-                </div>
-
-
-
-            </div>
 
 
 
 
+        <!-- Seccion bloques de servicios -------------->
 
-            <!-- Carousel -->
 
+
+        <div id="galeria1">
             <div class="contenedor">
 
                 <div class="carousel">
                     <div class="carousel__contenedor">
-                        <button aria-label="Anterior" class="carousel__anterior">
+                        <button aria-label="Anterior" class="carousel__anterior_gal1">
                             <i class="fa fa-chevron-left"></i>
-                           
+
                         </button>
 
-                        <div class="carousel__lista">
+                        <div class="carousel__lista_gal1">
+                            <a class="carousel__elemento" href="img/salon_mesa_1.jpg" data-lightbox="image-2">
+                                <img src="img/salon_mesa.jpg" alt="mesa con flores">
 
-
-                           
-                           
-                            <a class="carousel__elemento" href="img/mesa_decorada_1a.jpg" data-lightbox="image-1">
-                                <img src="img/mesa_decorada.jpg" alt="buffete_6">
-                                
                             </a>
 
-                            <a class="carousel__elemento" href="img/carrito_a.jpg" data-lightbox="image-1">
-                                <img src="img/carrito.jpg" alt="carrito">
-                               
+                            <a class="carousel__elemento" href="img/mesa_decorada_1a.jpg" data-lightbox="image-2">
+                                <img src="img/mesa_decorada.jpg" alt="salon2">
+
                             </a>
 
-                            <a class="carousel__elemento" href="img/torre_postres_a.jpg" data-lightbox="image-1">
-                                <img src="img/torre_postres.jpg" alt="torre_postres">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/paletas_a.jpg" data-lightbox="image-1">
-                                <img src="img/paletas.jpg" alt="paletas">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/cono_dulces_a.jpg" data-lightbox="image-1">
-                                <img src="img/cono_dulces.jpg" alt="cono_dulces">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/cupcakes_a.jpg"  data-lightbox="image-1">
-                                <img src="img/cupcakes.jpg" alt="cupcakes">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/paletas_azules_a.jpg" data-lightbox="image-1">
-                                <img src="img/paletas_azules.jpg" alt="buffete_4">
-                               
-                            </a>
-                            
-                            <a class="carousel__elemento" href="img/caja_rosa_a.jpg" data-lightbox="image-1">
-                                <img src="img/caja_rosa.jpg" alt="buffete_5">
-                               
-                            </a>
-
-
-                            <a class="carousel__elemento" href="img/salon2_a.jpg" data-lightbox="image-1">
+                            <a class="carousel__elemento" href="img/salon2_a.jpg" data-lightbox="image-2">
                                 <img src="img/salon2.jpg" alt="salon2">
-                                
+
                             </a>
 
-                            <a class="carousel__elemento" href="img/inflable_a.jpg"  data-lightbox="image-1">
-                                <img src="img/inflable.jpg" alt="inflable">
-                               
+                            <a class="carousel__elemento" href="img/salon_mesa_2a.jpg" data-lightbox="image-2">
+                                <img src="img/salon_mesa_2.jpg" alt="Mesa">
+
                             </a>
 
-                            <a class="carousel__elemento" href="img/inflable_2_a.jpg"  data-lightbox="image-1">
-                                <img src="img/inflable_2.jpg" alt="inflable_2">
-                               
+                            <a class="carousel__elemento" href="img/salon_mesa_3a.jpg" data-lightbox="image-2">
+                                <img src="img/salon_mesa_3.jpg" alt="Mesa">
+
                             </a>
 
-                            <a class="carousel__elemento" href="img/inflable_3_a.jpg"  data-lightbox="image-1">
-                                <img src="img/inflable_3.jpg" alt="inflable_3">
-                               
+                            <a class="carousel__elemento" href="img/mesa_peluche_2a.jpg" data-lightbox="image-2">
+                                <img src="img/mesa_peluche_2.jpg" alt="inflable_3">
+
                             </a>
 
-                            <a class="carousel__elemento" href="img/mesa_peluche_a.jpg"  data-lightbox="image-1">
-                                <img src="img/mesa_peluche.jpg" alt="mesa_peluche">
-                               
-                            </a>
 
-                            <a class="carousel__elemento" href="img/mesa_peluche_1a.jpg"  data-lightbox="image-1">
-                                <img src="img/mesa_peluche_1.jpg" alt="mesa_peluche_2">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/mesa_peluche_2a.jpg"  data-lightbox="image-1">
-                                <img src="img/mesa_peluche_2.jpg" alt="mesa_peluche_3">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/mesa_peluche_3a.jpg"  data-lightbox="image-1">
-                                <img src="img/mesa_peluche_3.jpg" alt="mesa_peluche_4">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/peluche.jpg"  data-lightbox="image-1">
-                                <img src="img/peluche_a.jpg" alt="peluche">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/cake_a.jpg"  data-lightbox="image-1">
-                                <img src="img/cake.jpg" alt="cake">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/doritos_a.jpg"  data-lightbox="image-1">
-                                <img src="img/doritos.jpg" alt="doritos">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/buffet_1a.jpg" data-lightbox="image-1">
-                                <img src="img/buffet_1.jpg" alt="buffet_1">
-                               
-                            </a>
-
-                            <a class="carousel__elemento" href="img/buffete_3a.jpg" data-lightbox="image-1">
-                                <img src="img/buffete_3.jpg" alt="buffete_3">
-                                
-                            </a>
-
-                            <a class="carousel__elemento" href="img/buffete_2a.jpg" data-lightbox="image-1">
-                                <img src="img/buffete_2.jpg" alt="buffete_2">
-                               
-                            </a>
-
-                          
 
                         </div>
 
-
-
-                        
-
-
-
-                        <button aria-label="Siguiente" class="carousel__siguiente">
+                        <button aria-label="Siguiente" class="carousel__siguiente_gal1">
                             <i class="fa fa-chevron-right"></i>
                         </button>
-
-
-
-                        <div role="tablist" class="carousel__indicadores"></div>
-
+                        <div role="tablist" class="carousel__indicadores_gal1"></div>
 
                     </div>
+                </div>
+            </div>
+        </div>
 
-                   
 
+
+
+
+
+        <!-- Carrusel Taquiza ------------------------------ -->
+
+        <div id="menu_menu">
+
+            <div class="titulo_menu">CONOCE NUESTROS SERVICIOS</div>
+
+            <div class="contenedor_taquiza">
+
+               
+
+                <div class="galeria_taquiza">
+
+
+                    <div class="contenedor">
+
+                        <div class="carousel">
+                            <div class="carousel__contenedor">
+                                <button aria-label="Anterior" class="carousel__anterior_taco">
+                                    <!-- <i class="fa fa-chevron-left"></i> -->
+
+                                </button>
+
+                                <div class="carousel__lista_taco">
+                                    <a class="carousel__elemento" href="img/letrero-taquiza_big.jpg" data-lightbox="image-3">
+                                        <img src="img/letrero-taquiza_small.jpg" alt="portada">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/letrero-taquiza-menu_big.jpg" data-lightbox="image-3">
+                                        <img src="img/letrero-taquiza-menu_small.jpg" alt="menu_taquiza">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/tacos_plato_big.jpg"
+                                        data-lightbox="image-3">
+                                        <img src="img/tacos_plato.jpg" alt="plato con tacos">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/tacos_plato_01-big.jpg"
+                                        data-lightbox="image-3">
+                                        <img src="img/tacos_plato_01.jpg" alt="plato con tacos_02">
+
+                                    </a>
+
+
+
+
+
+                                </div>
+
+                                <button aria-label="Siguiente" class="carousel__siguiente_taco">
+                                    <!-- <i class="fa fa-chevron-right"></i> -->
+                                </button>
+                                <div role="tablist" class="carousel__indicadores_taco"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="taquiza_02"></div>
 
                 </div>
 
             </div>
 
 
+
+
+
+            <!-- Carrusel guisados -->
+
+            <div class="contenedor_guisados">
+
+                <div class="galeria_guisados">
+
+                    <div class="contenedor">
+
+                        <div class="carousel">
+                            <div class="carousel__contenedor">
+                                <button aria-label="Anterior" class="carousel__anterior_guisados">
+                                    <!-- <i class="fa fa-chevron-left"></i> -->
+
+                                </button>
+
+                                <div class="carousel__lista_guisados">
+                                    <a class="carousel__elemento" href="img/letrero-guisados_big.jpg" data-lightbox="image-4">
+                                        <img src="img/letrero-guisados_small.jpg" alt="guisados">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/letrero-guisados-menu_big.jpg" data-lightbox="image-4">
+                                        <img src="img/letrero-guisados-menu_small.jpg" alt="menu-guisados">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/buffet_1a.jpg" data-lightbox="image-4">
+                                        <img src="img/buffet_1.jpg" alt="buffet">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/buffete_2a.jpg" data-lightbox="image-4">
+                                        <img src="img/buffete_2.jpg" alt="buffet">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/buffete_3a.jpg" data-lightbox="image-4">
+                                        <img src="img/buffete_3.jpg" alt="inflable_2">
+
+                                    </a>
+
+                                    
+
+
+
+                                </div>
+
+                                <button aria-label="Siguiente" class="carousel__siguiente_guisados">
+                                    <!-- <i class="fa fa-chevron-right"></i> -->
+                                </button>
+                                <div role="tablist" class="carousel__indicadores_guisados"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="guisados_02"></div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- Carrusel postres -->
+
+            <div class="contenedor_postres">
+
+                <div class="galeria_postres">
+
+                    <div class="contenedor">
+
+                        <div class="carousel">
+                            <div class="carousel__contenedor">
+                                <button aria-label="Anterior" class="carousel__anterior_postres">
+                                    <!-- <i class="fa fa-chevron-left"></i> -->
+
+                                </button>
+
+                                <div class="carousel__lista_postres">
+                                    <a class="carousel__elemento" href="img/letrero-postres_big.jpg" data-lightbox="image-5">
+                                        <img src="img/letrero-postres_small.jpg" alt="postres">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/caja_rosa_a.jpg" data-lightbox="image-5">
+                                        <img src="img/caja_rosa.jpg" alt="cala dulces">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/cake_a.jpg" data-lightbox="image-5">
+                                        <img src="img/cake.jpg" alt="cake">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/carrito_a.jpg" data-lightbox="image-5">
+                                        <img src="img/carrito.jpg" alt="carrito de cupcakes">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/cono_dulces_a.jpg" data-lightbox="image-5">
+                                        <img src="img/cono_dulces.jpg" alt="cono de dulces">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/cupcakes_a.jpg" data-lightbox="image-5">
+                                        <img src="img/cupcakes.jpg" alt="cupcakes">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/mesa_peluche_1a.jpg" data-lightbox="image-5">
+                                        <img src="img/mesa_peluche_1.jpg" alt="mesa decorada">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/mesa_peluche_a.jpg" data-lightbox="image-5">
+                                        <img src="img/mesa_peluche.jpg" alt="mesa decorada con peluche">
+
+                                    </a>
+
+                                   
+
+
+                                </div>
+
+                                <button aria-label="Siguiente" class="carousel__siguiente_postres">
+                                    <!-- <i class="fa fa-chevron-right"></i> -->
+                                </button>
+                                <div role="tablist" class="carousel__indicadores_postres"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="postres_02"></div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- Carrusel hamburguesas y hotdogs -->
+
+            <div class="contenedor_hamhot">
+
+                <div class="galeria_hamhot">
+
+                    <div class="contenedor">
+
+                        <div class="carousel">
+                            <div class="carousel__contenedor">
+                                <button aria-label="Anterior" class="carousel__anterior_hamhot">
+                                    <!-- <i class="fa fa-chevron-left"></i> -->
+
+                                </button>
+
+                                <div class="carousel__lista_hamhot">
+                                    <a class="carousel__elemento" href="img/letrero-hotdogs_big.jpg" data-lightbox="image-6">
+                                        <img src="img/letrero-hotdogs_small.jpg" alt="mesa con flores">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/hotdog_01_big.jpg" data-lightbox="image-6">
+                                        <img src="img/hotdog_01_small.jpg" alt="Hotdogs">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/hotdog_big.jpg" data-lightbox="image-6">
+                                        <img src="img/hotdog_small.jpg" alt="Hotdogs">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/hamburguesa-01_big.jpg" data-lightbox="image-6">
+                                        <img src="img/hamburguesa-01_small.jpg" alt="Hamburguesas">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/hamburguesa_big.jpg" data-lightbox="image-6">
+                                        <img src="img/hamburguesa_small.jpg" alt="Hamburguesas">
+
+                                    </a>
+
+                                   
+
+
+
+                                </div>
+
+                                <button aria-label="Siguiente" class="carousel__siguiente_hamhot">
+                                    <!-- <i class="fa fa-chevron-right"></i> -->
+                                </button>
+                                <div role="tablist" class="carousel__indicadores_hamhot"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hamhot_02"></div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Carrusel tamales -->
+
+            <div class="contenedor_tamales">
+
+                <div class="galeria_tamales">
+
+                    <div class="contenedor">
+
+                        <div class="carousel">
+                            <div class="carousel__tamales">
+                                <button aria-label="Anterior" class="carousel__anterior_tamales">
+                                    <!-- <i class="fa fa-chevron-left"></i> -->
+
+                                </button>
+
+                                <div class="carousel__lista_tamales">
+                                    <a class="carousel__elemento" href="img/letrero-tamales_big.jpg" data-lightbox="image-7">
+                                        <img src="img/letrero-tamales_small.jpg" alt="mesa con flores">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/Tamal-olla_big.jpg" data-lightbox="image-7">
+                                        <img src="img/Tamal-olla_small.jpg" alt="tamal y olla">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/tamales_big.jpg" data-lightbox="image-7">
+                                        <img src="img/tamales_small.jpg" alt="Tamales">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/tamales_01_big.jpg" data-lightbox="image-7">
+                                        <img src="img/tamales_01_small.jpg" alt="Tamales">
+
+                                    </a>
+
+                                  
+
+
+                                </div>
+
+                                <button aria-label="Siguiente" class="carousel__siguiente_tamales">
+                                    <!-- <i class="fa fa-chevron-right"></i> -->
+                                </button>
+                                <div role="tablist" class="carousel__indicadores_tamales"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tamales_02"></div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- Carrusel inflable -->
+
+            <div class="contenedor_inflable">
+
+                <div class="galeria_inflable">
+
+                    <div class="contenedor">
+
+                        <div class="carousel">
+                            <div class="carousel__inflable">
+                                <button aria-label="Anterior" class="carousel__anterior_inflable">
+                                    <!-- <i class="fa fa-chevron-left"></i> -->
+
+                                </button>
+
+                                <div class="carousel__lista_inflable">
+                                    <a class="carousel__elemento" href="img/letrero-inflable_big.jpg" data-lightbox="image-8">
+                                        <img src="img/letrero-inflable_small.jpg" alt="mesa con flores">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/inflable_2_a.jpg" data-lightbox="image-8">
+                                        <img src="img/inflable_2.jpg" alt="inflable">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/inflable_3_a.jpg" data-lightbox="image-8">
+                                        <img src="img/inflable_3.jpg" alt="inflable">
+
+                                    </a>
+
+                                    <a class="carousel__elemento" href="img/inflable_a.jpg" data-lightbox="image-8">
+                                        <img src="img/inflable.jpg" alt="Inflable">
+
+                                    </a>
+
+                                  
+
+
+
+                                </div>
+
+                                <button aria-label="Siguiente" class="carousel__siguiente_inflable">
+                                    <!-- <i class="fa fa-chevron-right"></i> -->
+                                </button>
+                                <div role="tablist" class="carousel__indicadores_inflable"></div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
+
+                
+
+            </div>
+
+
+
+            <div class="manteleria">También contamos con venta de arreglos de mesa y renta de cubre sillas</div>
+
+
+
+
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+        <!------------- Carousel ----------------------->
+
+        <div class="contenedor">
+
+            <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <!-- <i class="fa fa-chevron-left"></i> -->
+
+                    </button>
+
+                    <div class="carousel__lista">
+
+
+
+                        <!-- 
+                        <a class="carousel__elemento" href="img/mesa_decorada_1a.jpg" data-lightbox="image-1">
+                            <img src="img/mesa_decorada.jpg" alt="buffete_6">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/carrito_a.jpg" data-lightbox="image-1">
+                            <img src="img/carrito.jpg" alt="carrito">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/torre_postres_a.jpg" data-lightbox="image-1">
+                            <img src="img/torre_postres.jpg" alt="torre_postres">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/paletas_a.jpg" data-lightbox="image-1">
+                            <img src="img/paletas.jpg" alt="paletas">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/cono_dulces_a.jpg" data-lightbox="image-1">
+                            <img src="img/cono_dulces.jpg" alt="cono_dulces">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/cupcakes_a.jpg" data-lightbox="image-1">
+                            <img src="img/cupcakes.jpg" alt="cupcakes">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/paletas_azules_a.jpg" data-lightbox="image-1">
+                            <img src="img/paletas_azules.jpg" alt="buffete_4">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/caja_rosa_a.jpg" data-lightbox="image-1">
+                            <img src="img/caja_rosa.jpg" alt="buffete_5">
+
+                        </a>
+
+
+                        <a class="carousel__elemento" href="img/inflable_a.jpg" data-lightbox="image-1">
+                            <img src="img/inflable.jpg" alt="inflable">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/inflable_2_a.jpg" data-lightbox="image-1">
+                            <img src="img/inflable_2.jpg" alt="inflable_2">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/inflable_3_a.jpg" data-lightbox="image-1">
+                            <img src="img/inflable_3.jpg" alt="inflable_3">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/mesa_peluche_a.jpg" data-lightbox="image-1">
+                            <img src="img/mesa_peluche.jpg" alt="mesa_peluche">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/mesa_peluche_1a.jpg" data-lightbox="image-1">
+                            <img src="img/mesa_peluche_1.jpg" alt="mesa_peluche_2">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/mesa_peluche_2a.jpg" data-lightbox="image-1">
+                            <img src="img/mesa_peluche_2.jpg" alt="mesa_peluche_3">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/mesa_peluche_3a.jpg" data-lightbox="image-1">
+                            <img src="img/mesa_peluche_3.jpg" alt="mesa_peluche_4">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/peluche.jpg" data-lightbox="image-1">
+                            <img src="img/peluche_a.jpg" alt="peluche">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/cake_a.jpg" data-lightbox="image-1">
+                            <img src="img/cake.jpg" alt="cake">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/doritos_a.jpg" data-lightbox="image-1">
+                            <img src="img/doritos.jpg" alt="doritos">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/buffet_1a.jpg" data-lightbox="image-1">
+                            <img src="img/buffet_1.jpg" alt="buffet_1">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/buffete_3a.jpg" data-lightbox="image-1">
+                            <img src="img/buffete_3.jpg" alt="buffete_3">
+
+                        </a>
+
+                        <a class="carousel__elemento" href="img/buffete_2a.jpg" data-lightbox="image-1">
+                            <img src="img/buffete_2.jpg" alt="buffete_2">
+
+                        </a> -->
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <!-- <i class="fa fa-chevron-right"></i> -->
+                    </button>
+
+
+
+                    <div role="tablist" class="carousel__indicadores"></div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
 
         <!-- ---------------- -->
 
@@ -370,25 +804,28 @@
 
                 <div class="boxName">
                     <label id="label1" for="Name">Nombre</label>
-                    <input type="text" name="name" id="name" placeholder="Introduce tu nombre" required autocomplete="off" >
+                    <input type="text" name="name" id="name" placeholder="Introduce tu nombre" required
+                        autocomplete="off">
                 </div>
 
 
                 <div class="boxMail">
                     <label id="label2" for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Introduce tu correo electronico de contacto" required autocomplete="off" >
+                    <input type="email" name="email" id="email" placeholder="Introduce tu correo electronico" required
+                        autocomplete="off">
                 </div>
 
                 <div class="boxMess">
                     <label id="label3" for="textarea">Mensaje</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escribe tu pregunta o comentario" required autocomplete="off" ></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Escribe tu pregunta o comentario" required autocomplete="off"></textarea>
                 </div>
 
                 <div class="box-btn">
-                    <button id="btn" >Enviar</button>
+                    <button id="btn">Enviar</button>
                 </div>
 
-                
+
             </form>
             <div class="info" id="messageResult"></div>
         </div>
@@ -409,34 +846,34 @@
 
         <div class="redes_sociales">
             <div class="div_redes">
-                 <h6>Siguenos en nuestras redes sociales</h6>
-             </div>      
+                <h6>Siguenos en nuestras redes sociales</h6>
+            </div>
 
             <div class="iconos_social">
-                <a id="face" href="https://www.facebook.com"><i class="fa fa-facebook-square"></i></a>
-                <a id="twitter" href="https://www.twitter.com"><i class="fa fa-twitter-square"></i></a>
-                <a id="instagram" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                <a id="face" href="https://www.facebook.com/Sal%C3%B3n-Villa-M%C3%ADa-104985118793772"><i class="fa fa-facebook-square"></i></a>
+                <a id="twitter" href="https://twitter.com/salonvillamia"><i class="fa fa-twitter-square"></i></a>
+                <a id="instagram" href="https://www.instagram.com/salonvillamia/"><i class="fa fa-instagram"></i></a>
             </div>
 
             <div class="div_flecha">
                 <a id="flecha" href="#logo-baner"><i class="fa fa-chevron-up"></i></a>
             </div>
-             
+
 
         </div>
 
     </section>
 
-   
+
 
     <footer>
-        &copy; Copyright Villa M&iacute;a 2021
-        
+        &copy; Copyright Sal&oacute;n Villa M&iacute;a 2022
+
     </footer>
 
     <div class="designer">
-         <a href="">Designed by Blanca Gonz&aacute;lez </a>
-   </div> 
+        <a href="">Designed by Blanca Gonz&aacute;lez </a>
+    </div>
 
 
 
@@ -456,7 +893,7 @@
     <!-- Script Menu_Nav -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-    </script>
+        </script>
 
 
 
@@ -471,12 +908,17 @@
     <script>
         lightbox.option({
             'albumLabel': "Imagen %1 de %2",
-          'disableScrolling':true,
-          'alwaysShowNavOnTouchDevices':true
+            'disableScrolling': true,
+            'alwaysShowNavOnTouchDevices': true
         })
     </script>
 
     <script src="scripts/mail-app.js"></script>
+
+
+
+    <!-- MATERIALIZE -->
+
 
 
 

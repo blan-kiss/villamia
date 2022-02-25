@@ -205,7 +205,7 @@ body {
         position: relative;
         
     }
-    .carousel__anterior, .carousel__siguiente {
+    .carousel__anterior, .carousel__siguiente, .carousel__anterior_gal1, .carousel__siguiente_gal1 {
         position: absolute;
         display: block;
         width: 30px;
@@ -219,16 +219,17 @@ body {
         color: rgba(46, 45, 45, 0.801);
         opacity: 50%;
     }
-    .carousel__anterior:hover, .carousel__siguiente:hover {
+    .carousel__anterior:hover, .carousel__siguiente:hover,
+    .carousel__anterior_gal1:hover, .carousel__siguiente_gal1:hover  {
         opacity: 100%;
     }
-    .carousel__anterior {
+    .carousel__anterior, .carousel__anterior_gal1 {
         left: -70px;
     }
-    .carousel__siguiente {
+    .carousel__siguiente, .carousel__siguiente_gal1 {
         right: -30px;
     }
-    .carousel__lista {
+    .carousel__lista, .carousel__lista_gal1 {
         overflow: hidden;
     }
     .carousel__elemento {
@@ -257,21 +258,6 @@ body {
    
 
 
-    /* @media screen and (max-width: 800px) {
-        body {
-            padding: 40px 0;
-        }
-        .contenido-principal {
-            flex-direction: column;
-        }
-        .contenido-principal>* {
-            width: 100%;
-        }
-    } */
-
-    /* Final Carousel ---------------*/
-
-
 
 
     /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
@@ -285,6 +271,20 @@ body {
         width: 90%;
         border-radius: 10px;
     }
+
+
+    #galeria1 {
+        margin-bottom: 10px;
+        background-color: #F4E9E9;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        border-radius: 10px;
+        border: 3px solid #EAC9C9;
+    }
+
+    
     .contenedor_taquiza_guisado_menu {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
@@ -364,7 +364,7 @@ body {
         align-items: center;
         font-weight: 600;
     }
-    /* --- --- CAROUSEL --- ---  ----------------*/
+   
 
 
 
@@ -522,6 +522,9 @@ body {
         padding: 30px;
        
     }
+
+
+
 
     #face{
         color:rgb(97, 94, 95);

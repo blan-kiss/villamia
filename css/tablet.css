@@ -143,7 +143,7 @@
 
 /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
 
-     #menu_menu {
+    #menu_menu {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
        
@@ -153,107 +153,185 @@
         width: 95%;
         border-radius: 10px;
     }
-    
-    .contenedor_taquiza_guisado_menu {
+
+    #galeria1 {
+        margin-bottom: 10px;
+        background-color: #F4E9E9;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+        border: 3px solid #EAC9C9;
+    }
+
+
+    .contenedor_taquiza {
         background-color: #EAC9C9;
         /* border: 2px solid black; */
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        /* justify-content: center; */
-        align-items: flex-start
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
     }
 
-    .titulo_menu {
+    .contenedor_guisados {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_postres {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_hamhot {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_tamales {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_inflable {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+
+
+    .galeria_taquiza {
         /* border: 2px solid darkolivegreen; */
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 82%;
         justify-content: center;
-        margin-top: 55px;
-        margin-bottom: 30px;
-        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
     }
 
-    .taquiza {
+    .galeria_guisados {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_postres {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_hamhot {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_tamales {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_inflable {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .titulo_menu{
         /* border: 2px solid skyblue; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-top: 20px;
-        /* margin-right: 0; */
         justify-content: center;
-        padding-bottom: 20px;
-        border-right: none;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        /* padding-top: 10px; */
-        
-    }
-
-    #titulo_lista_tacos {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
-    }
-
-    .guisados_menu {
-        /* border: 2px solid greenyellow; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 20px;
-        justify-content: center;
-        border-right: none;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        padding-bottom: 25px;
-    }
-
-    #titulo_lista_guisados {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
-        /* padding-top: 15px; */
-    }
-
-    li {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat';
         font-size: 16px;
-        font-weight: 300;
+        color: #5e5d5d;
     }
 
-
-    /* MESA DULCES -----------------------*/
-
-    .dulce_menu {
-        /* border: 2px solid black; */
-        /* background-color: #e2b8b8; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        padding-bottom: 25px;
-       
+    .manteleria {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        padding: 25px;
+        text-align: center;
+        color: #fff;
+        border-top: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        margin: 31px;
     }
+    
+   
 
-    ul.dulce  {
-        /* border: 2px solid orangered; */
-        width: 53%;
-        padding: 5px;
-    }
-
-    #titulo_lista_dulces {
-        font-size: 20px;
-        list-style: none;
-        /* text-align: center; */
-        padding-bottom: 20px;
-        font-weight: 600;
-    }
+    
 
     /* CONTENEDOR GALERIA *----------------------/
 
@@ -269,7 +347,7 @@
         
     }
 
-    .carousel__anterior, .carousel__siguiente {
+    .carousel__anterior, .carousel__siguiente, .carousel__siguiente_gal1, .carousel__anterior_gal1 {
        
         user-select: none;
         position: absolute;
@@ -283,22 +361,56 @@
         border: 0;
         top: 25%;
         cursor: pointer;
-        color: rgb(231, 226, 226);
+        color: rgb(255, 255, 255);
         opacity: 1;
         line-height: 1;
         transition: opacity .5s cubic-bezier(.17,.67,.83,.67),
                     color .5s cubic-bezier(.17,.67,.83,.67);
     }
 
-    .carousel__siguiente  {
+
+    .carousel__siguiente, .carousel__siguiente_gal1 {
         right: 35px;
         left: auto;
     }
 
+    .carousel__siguiente_taco, .carousel__anterior_taco,
+    .carousel__siguiente_guisados, .carousel__anterior_guisados, .carousel__siguiente_postres, .carousel__anterior_postres, .carousel__siguiente_hamhot, .carousel__anterior_hamhot,
+    .carousel__siguiente_tamales, .carousel__anterior_tamales, .carousel__siguiente_inflable, .carousel__anterior_inflable {
+        user-select: none;
+        position: absolute;
+        outline: none;
+        background: none;
+        padding: 0;
+        z-index: 2;
+        font-size: 40px;
+        text-decoration: none;
+        left: -66px;
+        border: 0;
+        top: 28%;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        opacity: 1;
+        line-height: 1;
+        transition: opacity .5s cubic-bezier(.17,.67,.83,.67),
+                    color .5s cubic-bezier(.17,.67,.83,.67);
+    }
+
+    .carousel__siguiente_taco, .carousel__siguiente_guisados, .carousel__siguiente_postres, .carousel__siguiente_hamhot,
+    .carousel__siguiente_tamales, .carousel__siguiente_inflable {
+        right: -65px;
+        left: auto;
+    }
+
+    .glider-dot.active {
+        background: rgba(255, 255, 255, 0.699) !important;
+    }
+
     .glider-dot {
-        width: 10px;
-        height: 10px;
-        margin: 10px;
+        width: 11px;
+        height: 11px;
+        margin: 11px;
+        background-color: rgba(145, 12, 85, 0.363);
     }
 
     .glider-dots {
@@ -308,6 +420,7 @@
     .glider-slide img {
         border-radius: 10px;
         border: 4px solid #fff;
+        
     }
 
 
@@ -318,7 +431,7 @@
         /* border: 2px solid sandybrown; */
         background-color: rgba(51, 49, 49, 0.377);
         width: 95%;
-        margin-top: 10px;
+        margin-top: -80px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -351,8 +464,22 @@
         align-items: center;
     }
 
+    #name, #email,  #message, #btn  {
+        padding: 10px;
+        font-family: 'Poppins';
+        font-size: 14px;  
+        background-color: rgb(253, 253, 253);
+    }
+
     #btn {
-        font-weight: 300;
+       
+        color: rgb(253, 253, 253);
+        background-color: rgb(12, 91, 136);
+        font-size: 14px;
+    }
+
+    .box-bnt {
+        background-color: #EAC9C9;
     }
 
     /* MAPA----------------------------- */
@@ -465,88 +592,194 @@
     /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
 
    
-    .taquiza {
-        /* border: 2px solid skyblue; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 45%;
-        margin-top: 20px;
-        /* margin-right: 0; */
-        justify-content: center;
-        padding-bottom: 20px;
-        border-right: none;
-        border-bottom: 0;
-        /* padding-top: 10px; */
-        
-    }
-
-    #titulo_lista_tacos {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
-    }
-
-    .guisados_menu {
-        /* border: 2px solid greenyellow; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 45%;
-        margin-top: 20px;
-        justify-content: center;
-        border-right: none;
-        border-bottom: 0;
-        /* padding-bottom: 25px; */
-    }
-
-    #titulo_lista_guisados {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
-        /* padding-top: 15px; */
-    }
-
-    li {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        font-weight: 300;
-    }
-
-    /* MESA DULCES -----------------------*/
-
-    .dulce_menu {
+    #menu_menu {
+        background-color: #EAC9C9;
         /* border: 2px solid black; */
-        
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    #galeria1 {
+        margin-bottom: 10px;
+        background-color: #F4E9E9;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+        border: 3px solid #EAC9C9;
+    }
+
+
+    .contenedor_taquiza {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_guisados {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_postres {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_hamhot {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_tamales {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_inflable {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .galeria_taquiza {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_guisados {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_postres {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_hamhot {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_tamales {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_inflable {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .titulo_menu{
+        /* border: 2px solid skyblue; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        border-bottom: 4px solid gray;
-        border-bottom-style: double;
-        border-top: 4px solid gray;
-        border-top-style: double;
-        padding-bottom: 25px;
-        padding-top: 35px;
-        text-align: center;
-    }
-
-    ul.dulce  {
-        /* border: 2px solid orangered; */
-        width: 53%;
-        padding: 5px;
-        list-style: none;
-    }
-
-    #titulo_lista_dulces {
+        font-family: 'Montserrat';
         font-size: 20px;
-        list-style: none;
-        /* text-align: center; */
-        padding-bottom: 20px;
-        font-weight: 500;
     }
 
-     /* FORMULARIO ------------------------------------*/
+    .manteleria {
+        font-family: 'Montserrat';
+        font-size: 17px;
+        padding: 25px;
+        text-align: center;
+        color: #fff;
+        border-top: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        margin: 32px;
+    }
+
+    
+    
+    
+    
+    /* FORMULARIO ------------------------------------*/
 
     .info {
         /* border: 2px solid greenyellow; */
@@ -666,98 +899,203 @@
 
     /* DIV MENU GUISADOS Y TAQUIZAS / MESA DE DULCES------------ */
 
-    h5 {
-
-        font-size: 25px;
-    }
-
    
-    .taquiza {
-        /* border: 2px solid skyblue; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 45%;
-        margin-top: 20px;
-        /* margin-right: 0; */
-        justify-content: center;
-        padding-bottom: 20px;
-        border-right: none;
-        border-bottom: 0;
-        /* padding-top: 10px; */
-        
-    }
-
-    #titulo_lista_tacos {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
-    }
-
-    .guisados_menu {
-        /* border: 2px solid greenyellow; */
-        display: flex;
-        flex-wrap: wrap;
-        width: 45%;
-        margin-top: 20px;
-        justify-content: center;
-        border-right: none;
-        border-bottom: 0;
-        /* padding-bottom: 25px; */
-    }
-
-    #titulo_lista_guisados {
-        list-style: none;
-        font-size: 20px;
-        /* text-align: center; */
-        padding-bottom: 20px;
-        /* padding-top: 15px; */
-    }
-
-    li {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
-    }
-
-    /* MESA DULCES -----------------------*/
-
-    .dulce_menu {
+    #menu_menu {
+        background-color: #EAC9C9;
         /* border: 2px solid black; */
-        
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    #galeria1 {
+        margin-bottom: 10px;
+        background-color: #F4E9E9;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        border-radius: 10px;
+        border: 3px solid #EAC9C9;
+    }
+
+
+    .contenedor_taquiza {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_guisados {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_postres {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_hamhot {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .contenedor_tamales {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+    .contenedor_inflable {
+        background-color: #EAC9C9;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+
+
+    .galeria_taquiza {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_guisados {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_postres {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_hamhot {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .galeria_tamales {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .galeria_inflable {
+        /* border: 2px solid darkolivegreen; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .titulo_menu{
+        /* border: 2px solid skyblue; */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        border-bottom: 3px solid gray;
-        border-bottom-style: double;
-        border-top: 3px solid gray;
-        border-top-style: double;
-        padding-bottom: 25px;
-        padding-top: 35px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+    }
+
+    .manteleria {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        padding: 25px;
         text-align: center;
+        color: #fff;
+        border-top: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        margin: 39px;
+        
     }
 
-    ul.dulce  {
-        /* border: 2px solid orangered; */
-        width: 53%;
-        padding: 5px;
-        list-style: none;
-    }
+    
+   
+  
 
-    #titulo_lista_dulces {
-        font-size: 22px;
-        list-style: none;
-        /* text-align: center; */
-        padding-bottom: 20px;
-        font-weight: 500;
-    }
+
 
     /* CARRUSEL-------------------------------------- */
 
     .glider-slide img {
         
         border: 3px solid #fff;
+       
     }
 
     /* FORMULARIO ------------------------------------*/
