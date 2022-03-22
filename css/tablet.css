@@ -480,7 +480,45 @@
 
     .box-bnt {
         background-color: #EAC9C9;
+        
     }
+
+
+    /* Box Whatsapp */
+
+    .whatsapp {
+       
+        background-color: #dad7d76b;
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    h6{
+        font-size: 15px;
+        margin-bottom: -1px;
+        font-family: 'Poppins';
+    }
+
+    .cel {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #whats {
+        width: 9%;
+        display: flex;
+        padding: 3px;
+       
+    }
+
+
+
 
     /* MAPA----------------------------- */
     .mapa {
@@ -809,6 +847,28 @@
 
 
 
+/* BOX WHATSAPP */
+
+
+/* .cel {
+    width: 28%;
+} */
+
+/* #whats {
+    width: 7%;
+    display: flex;
+    padding: 3px;
+} */
+
+/* .num {
+    font-size: 16px;
+} */
+
+
+
+
+
+
 
 
 
@@ -1106,6 +1166,31 @@
         font-size: 22px;
         padding-top: 10px;
     }
+
+
+
+/* BOX WHATSAPP */
+
+
+.whatsapp {
+    width: 55%;
+}
+
+#whats {
+    width: 6%;
+    display: flex;
+    padding: 3px;
+}
+
+.cel {
+    width: 20%;
+    font-size: 18px;
+}
+
+.num {
+    font-size: 16px;
+}
+
 
 
 

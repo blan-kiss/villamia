@@ -595,6 +595,41 @@
         background-color: #EAC9C9;
     }
 
+    
+    /* Box Whatsapp */
+
+    .whatsapp {
+       
+        background-color: #dad7d76b;
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    .num {
+        font-size: 14px;
+        margin-bottom: -1px;
+        font-family: 'Poppins';
+    }
+
+    .cel {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #whats {
+        width: 10%;
+        display: flex;
+        padding: 3px;
+       
+    }
+
+   
 
 
     /* MAPA----------------------------- */

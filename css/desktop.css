@@ -454,6 +454,31 @@
 
 
 
+    /* BOX WHATSAPP */
+
+
+.whatsapp {
+    width: 50%;
+}
+
+#whats {
+    width: 5%;
+    display: flex;
+    padding: 3px;
+}
+
+.cel {
+    width: 20%;
+    font-size: 18px;
+}
+
+.num {
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+
+
+
     /* REDES SOCIALES ---------------------------------- */
 
     .redes_sociales {
